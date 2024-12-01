@@ -21,12 +21,13 @@ First, install the required packages:
 This configuration utilizes PipeWire for audio management. If you prefer to use PulseAudio, modify the `waybar` configuration to use the `pulseaudio` module instead of the `wireplumber` module.
 
 1. Remove PulseAudio:
-  
-       sudo pacman -R pulseaudio-alsa pulseaudio-bluetooth pulseaudio jack2
+
+       sudo pacman -Rdd pulseaudio
 
 2. Install PipeWire:
-
-       sudo pacman -S pipewire-alsa pipewire-jack lib32-pipewire-jack wireplumber pipewire-zeroconf pipewire-pulse gnome-bluetooth blueman
+ 
+       sudo pacman -S pipewire-{jack,alsa,pulse}
+       systemctl --user enable --now pipewire pipewire-pulse 
   
 #### Configuring Fusuma for Qtile
 
