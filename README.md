@@ -14,8 +14,8 @@ This was created in an Arcolinux offline setup vía the [Arconet ISO](https://ww
 
 First, install the required packages:
 
-       yay -S alacritty anyrun-git btop catppuccin-gtk-theme-macchiato copyq fastfetch foot fuzzel grimblast hypridle hyprland hyprlock hyprpicker kvantum-theme-catppuccin-git lib32-pipewire libnotify niri nmtui papirus-icon-theme papirus-folders-catppuccin-git pipewire playerctl polkit-gnome pyprland qtile rofi ruby-fusuma swayidle swaylock swaync swayosd-git swww sxhkd thunar volumectl waybar wldash wl-clipboard wlogout wlsunset wireplumber wlr-protocols wttr wttrbar xwayland-satellite xfce4-appfinder yad
-       
+       yay -S alacritty anyrun-git btop catppuccin-gtk-theme-macchiato copyq fastfetch foot fuzzel grimblast hypridle hyprland hyprlock hyprpicker kvantum-theme-catppuccin-git lib32-pipewire libnotify niri nmtui papirus-icon-theme papirus-folders-catppuccin-git pipewire playerctl polkit-gnome pyprland qtile rofi ruby-fusuma swayidle swaylock swaync swayosd-git swww sxhkd thunar volumectl waybar wldash wl-clipboard wlogout wlsunset wireplumber wlr-protocols wttr wttrbar xwayland-satellite xfce4-appfinder yad       
+
 #### Replace PulseAudio with PipeWire
 
 This configuration utilizes PipeWire for audio management. If you prefer to use PulseAudio, modify the `waybar` configuration to use the `pulseaudio` module instead of the `wireplumber` module.
@@ -30,6 +30,12 @@ This configuration utilizes PipeWire for audio management. If you prefer to use 
        systemctl --user enable --now pipewire pipewire-pulse 
   
 #### More configurations
+
+##### Configure Papirus Folders Catppuccin
+
+        papirus-folders -C cat-macchiato-green -t Papirus-Dark
+
+##### 
 
 
 
