@@ -111,6 +111,7 @@ For an optimal experience, you'll need to adjust the input and output settings f
 
 * **Input:**
 
+  * Change your keyboard configuration. 
   * Map your favorite keys to specific actions. Explore options like keyboard shortcuts to launch applications, switch between workspaces, or control volume.
   * Configure your touchpad for gestures, scrolling, and sensitivity.
 
@@ -122,7 +123,8 @@ For an optimal experience, you'll need to adjust the input and output settings f
 #### Hyprland
 
 * **Input:**
-
+  
+  * Change your keyboard configuration. 
   * Configure keyboard shortcuts for window management, workspaces, and other actions. Hyprland offers great flexibility to create an efficient workflow.
   * Adjust mouse sensitivity and acceleration.
 
