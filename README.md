@@ -14,7 +14,7 @@ This was created in an Arcolinux offline setup vía the [Arconet ISO](https://ww
 
 First, install the required packages:
 
-       yay -S alacritty anyrun-git btop catppuccin-gtk-theme-macchiato copyq fastfetch foot fuzzel grimblast hypridle hyprland hyprlock hyprpicker kvantum-theme-catppuccin-git lib32-pipewire libnotify niri nmtui papirus-icon-theme papirus-folders-catppuccin-git pipewire playerctl polkit-gnome pyprland qtile rofi ruby-fusuma swayidle swaylock swaync swayosd-git swww sxhkd thunar volumectl waybar wldash wl-clipboard wlogout wlsunset wireplumber wlr-protocols wttr wttrbar xwayland-satellite xfce4-appfinder yad       
+       yay -S alacritty anyrun-git btop catppuccin-gtk-theme-macchiato copyq curl fastfetch foot fuzzel git grimblast hypridle hyprland hyprlock hyprpicker kvantum-theme-catppuccin-git lib32-pipewire libnotify niri nmtui papirus-icon-theme papirus-folders-catppuccin-git pipewire playerctl polkit-gnome pyprland qtile rofi ruby-fusuma swayidle swaylock swaync swayosd-git swww sxhkd thunar volumectl waybar wldash wl-clipboard wlogout wlsunset wireplumber wlr-protocols wttr wttrbar xwayland-satellite xfce4-appfinder yad       
 
 #### Replace PulseAudio with PipeWire
 
@@ -31,13 +31,31 @@ This configuration utilizes PipeWire for audio management. If you prefer to use 
   
 #### More configurations
 
-##### Configure Papirus Folders Catppuccin
+##### Configure `papirus-folders` for catppuccin machiatto green
 
         papirus-folders -C cat-macchiato-green -t Papirus-Dark
 
-##### 
+##### Install fonts
 
+    pacman -S awesome-terminal-fonts --noconfirm --needed
+    pacman -S nerd-fonts-source-code-pro --noconfirm --needed
+    noto-fonts is already installed - nothing to do
+    pacman -S ttf-iosevka-nerd --noconfirm --needed
+    pacman -S ttf-jetbrains-mono --noconfirm --needed
+    pacman -S ttf-nerd-fonts-symbols --noconfirm --needed
+    pacman -S ttf-nerd-fonts-symbols-mono --noconfirm --needed
+    yay -S --noconfirm ttf-meslo-nerd-font-powerlevel10k
 
+##### Install and configure `zsh` 
+
+    pacman -S zsh-completions --noconfirm --needed
+    pacman -S zsh-autosuggestions --noconfirm --needed
+    pacman -S zsh-syntax-highlighting --noconfirm --needed
+    pacman -S oh-my-zsh-git --noconfirm --needed
+    chsh -s /bin/zsh
+    sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+    yay -S --noconfirm zsh-theme-powerlevel10k-git
+    echo 'source /usr/share/zsh-theme-powerlevel10k/powerlevel10k.zsh-theme' >>~/.zshrc
 
 #### Configuring Fusuma for Qtile (optional)
 
@@ -93,4 +111,4 @@ Here's how:
 
 ATT provides a user-friendly interface for managing various aspects of your system, making it an invaluable tool for both new and experienced Arch users.
 
-    yay -S arcoinux-tweak-tool
+    yay -S archlinux-tweak-tool-git
