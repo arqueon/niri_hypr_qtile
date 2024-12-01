@@ -14,7 +14,7 @@ This was created in an Arcolinux offline setup vía the [Arconet ISO](https://ww
 
 First, install the required packages:
 
-    yay -S alacritty anyrun-git btop catppuccin-gtk-theme-macchiato copyq curl fastfetch foot fuzzel git grimblast hypridle hyprland hyprlock hyprpicker kvantum-theme-catppuccin-git lib32-pipewire libnotify niri nmtui nwg-bar nwg-drawer nwg-look papirus-icon-theme papirus-folders-catppuccin-git pipewire playerctl polkit-gnome pyprland qt5ct qt6ct qtile rofi ruby-fusuma swayidle swaylock swaync swayosd-git swww sxhkd thunar volumectl waybar wldash wl-clipboard wlogout wlsunset wireplumber wlr-protocols wttr wttrbar xwayland-satellite xfce4-appfinder yad       
+    yay -S alacritty anyrun-git btop catppuccin-gtk-theme-macchiato copyq curl fastfetch foot fuzzel git grimblast hypridle hyprland hyprlock hyprpicker kvantum-theme-catppuccin-git lib32-pipewire libnotify niri nmtui nwg-bar nwg-drawer nwg-look papirus-icon-theme papirus-folders-catppuccin-git pipewire playerctl polkit-gnome pyprland qt5ct qt6ct qtile rofi ruby-fusuma swayidle swaylock swaync swayosd-git swww sxhkd thunar volumectl waybar wldash wl-clipboard wlogout wlsunset wireplumber wlr-protocols wttr wttrbar xwayland-satellite xfce4-appfinder yad 
 
 #### Replace PulseAudio with PipeWire
 
@@ -84,24 +84,61 @@ By following the steps outlined in the guide, you can set up and customize `fusu
 
 3. Restart your window manager or log out and back in.
 
-## Customization
 
-Feel free to modify the configuration files to suit your preferences. Refer to the documentation for each tool for detailed customization options. You are welcome to fork this configuration files. Do not install in a production environment before testing and customizing. 
+## Configuration Customization. Make it your own!
 
-This configuration is a starting point. You're encouraged to personalize it to match your workflow and aesthetic preferences.  
+This repository provides a minimal foundation for setting up your workspace with Niri and Hyprland. But don't stop there! Adapt it to your liking and needs.
 
-Here's how:
+**Here's how:**
 
-* **Explore the Configuration Files:** Dive into the various configuration files located in this repository. Each file controls a different aspect of the setup, allowing for granular customization.
-* **Consult the Documentation:** For detailed explanations and advanced options, refer to the official documentation for each tool:
+* **Explore the configuration files:** Dive into the files within the repository. Each one controls a specific aspect, allowing for granular customization.
 
-    *   [Niri](https://github.com/YaLTeR/niri/wiki/Getting-Started)
-    *   [Hyprland](https://wiki.hyprland.org/)
-    *   [Qtile](https://docs.qtile.org/en/latest/)
+* **Consult the documentation:** For advanced options and detailed explanations, check out the official documentation for each tool:
 
-* **Fork and Experiment:** Feel free to fork this repository and experiment with different settings. This allows you to safely test changes without affecting your main configuration.
+  * [Niri](https://github.com/YaLTeR/niri/wiki/Getting-Started): A powerful window manager with a minimalist approach.
+  * [Hyprland](https://wiki.hyprland.org/): A highly customizable Wayland compositor that gives you complete control over your graphical environment.
+  * [Qtile](https://docs.qtile.org/en/latest/): If you prefer a dynamic window manager, Qtile offers flexibility and extensibility.
 
-**Important Note:** It is strongly recommended to thoroughly test any modifications in a non-production environment before applying them to your primary system.
+* **Fork and experiment:** Create your own copy of the repository (fork) and experiment with different settings. This allows you to safely test changes without affecting your main configuration.
+
+**Important!** Test any modifications in a test environment before applying them to your main system.
+
+**Essential adjustments:**
+
+For an optimal experience, you'll need to adjust the input and output settings for Niri and Hyprland:
+
+**Niri:**
+
+* **Input:**
+
+  * Map your favorite keys to specific actions. Explore options like keyboard shortcuts to launch applications, switch between workspaces, or control volume.
+  * Configure your touchpad for gestures, scrolling, and sensitivity.
+
+* **Output:**
+
+  * Define the layout of your monitors, resolution, and scaling.
+  * Customize the appearance of Niri with themes, colors, and fonts.
+
+**Hyprland:**
+
+* **Input:**
+
+  * Configure keyboard shortcuts for window management, workspaces, and other actions. Hyprland offers great flexibility to create an efficient workflow.
+  * Adjust mouse sensitivity and acceleration.
+
+* **Output:**
+
+  * Define the layout of your monitors, including position, resolution, and scaling.
+  * Customize the appearance with themes, window borders, shadows, and animations.
+
+Feel free to explore and customize your environment until it's perfect for you!
+
+## Important Note
+
+It is **highly recommended** to test any modifications in a non-production environment before applying them to your main system. This ensures that all changes are safe and functional.
+
+Feel free to experiment and personalize this configuration to perfectly match your workflow!
+
 
 ## ArcoLinux Tweak Tool (ATT)
 
