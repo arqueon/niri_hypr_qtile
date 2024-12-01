@@ -1,0 +1,9 @@
+(
+    rules: "",
+    model: "",
+    layout: "us",
+    variant: "intl",
+    options: Some(",compose:caps"),
+    repeat_delay: 600,
+    repeat_rate: 25,
+)

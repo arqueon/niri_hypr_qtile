@@ -1,0 +1,254 @@
+{
+  "height": 26,
+  "layer": "top",
+  "margin-top": 4,
+  "margin-left": 10,
+  "margin-bottom": 0,
+  "margin-right": 10,
+  "spacing": 5,
+  "modules-left": [
+    "niri/workspaces",
+    "wlr/taskbar",
+    "mpris"
+  ],
+  "modules-center": [],
+  "modules-right": [
+    "custom/check_rec",
+    "custom/check_cam",
+    "idle_inhibitor",
+    "network",
+    "cpu",
+    "memory",
+    "wireplumber",
+    "pulseaudio",
+    "battery",
+    "tray",
+    "custom/weather",
+    "clock",
+    "custom/notification"
+  ],
+
+  "niri/workspaces": {
+    "format": "{icon}",
+    "format-icons": {
+      "chat": "󰭹",
+      "web": "󰖟",
+      "ref": "󰂺",
+      "notes": "󰎚",
+      "write": "",
+      "term": "",
+      "virt": "󰧨",
+      "files": "",
+      "media": "",
+      "active": "",
+      "default": ""
+    }
+  },
+
+  "wlr/taskbar": {
+    "format": "{icon}",
+    "tooltip-format": "{title} | {app_id}",
+    "icon-size": 16,
+    "spacing": 10,
+    "all-outputs": true,
+    "on-click": "activate",
+    "on-click-middle": "close",
+    "on-click-right": "fullscreen"
+  },
+
+  "hyprland/workspaces": {
+    "all-outputs": true
+  },
+
+  "idle_inhibitor": {
+    "format": "{icon}",
+    "format-icons": {
+      "activated": "  ",
+      "deactivated": "  "
+    }
+  },
+
+  "hyprland/window": {
+    "format": "{}"
+  },
+  "tray": {
+    "spacing": 10,
+    "icon-size": 14
+  },
+
+  "clock": {
+    "interval": 60,
+    "align": 0,
+    "rotate": 0,
+    "format": "{:%d %b <span rise='1000'> </span> %I:%M %p}",
+    "format-alt": "{:%A <span rise='1000'> </span> %d %B %Y <span rise='1000'> </span> %I:%M %p}",
+    "timezone": "America/Mexico_City",
+    "tooltip-format": "<tt><small>{calendar}</small></tt>",
+    "calendar": {
+      "mode": "year",
+      "mode-mon-col": 3,
+      "weeks-pos": "right",
+      "on-scroll": 1,
+      "format": {
+        "months": "<span color='#ffead3'><b>{}</b></span>",
+        "days": "<span color='#ecc6d9'><b>{}</b></span>",
+        "weeks": "<span color='#99ffdd'><b>W{}</b></span>",
+        "weekdays": "<span color='#ffcc66'><b>{}</b></span>",
+        "today": "<span color='#ff6699'><b><u>{}</u></b></span>"
+      }
+    },
+    "on-click-right": "~/.config/hypr/scripts/changeHyprpaper"
+  },
+
+  "cpu": {
+    "interval": 10,
+    "format": " {}%",
+    "max-length": 10,
+    "on-click": "alacritty -e btop"
+  },
+  
+"memory": {
+    "interval": 30,
+    "format": " {}%",
+    "format-alt": " {used:0.1f}G",
+    "max-length": 10,
+    "on-click": "alacritty -e btop"
+  },
+
+  "backlight": {
+    "device": "DP-1",
+    "format": "{icon} {percent}%",
+    "format-icons": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "on-click": ""
+  },
+
+  "network": {
+    "format-wifi": "  {essid}",
+    "format-ethernet": "  Ethernet",
+    "format-disconnected": "⚠ Disconnected",
+    "tooltip": true,
+    "tooltip-format": "{ifname} via {gwaddr}",
+    "tooltip-format-wifi": "{ipaddr} : {signalStrength}%",
+    "tooltip-format-ethernet": "{ipaddr} : {bandwidthTotalBytes}",
+    "on-click": "alacritty -e nmtui"
+  },
+
+  "wireplumber": {
+    "format": "{icon}  {volume}%",
+    "format-bluetooth": "{icon}  {volume}%",
+    "format-muted": "󰝟",
+    "format-icons": {
+      "headphones": "",
+      "handsfree": "",
+      "headset": "",
+      "phone": "",
+      "portable": "",
+      "car": "",
+      "default": [
+        "",
+        ""
+      ]
+    },
+    "on-click": "wpctl set-mute @DEFAULT_AUDIO_SINK@ toggle",
+    "on-click-middle": "pavucontrol",
+    "tooltip": false,
+    "scroll-step": 5.0
+  },
+
+  "pulseaudio": {
+    "format": "{format_source}",
+    "format-source": "󰍬 {volume}%",
+    "format-source-muted": "󰍭",
+    "tooltip": false,
+    "scroll-step": 5.0,
+    "on-click": "wpctl set-mute @DEFAULT_AUDIO_SOURCE@ toggle"
+  },
+  "bluetooth": {
+    "on-click": "~/.config/waybar/scripts/rofi-bluetooth &",
+    "format": " {status}"
+  },
+
+  "battery": {
+    "bat": "BAT0",
+    "adapter": "ADP0",
+    "interval": 60,
+    "states": {
+      "warning": 30,
+      "critical": 15
+    },
+    "max-length": 20,
+    "format": "{icon} {capacity}%",
+    "format-warning": "{icon} {capacity}%",
+    "format-critical": "{icon} {capacity}%",
+    "format-charging": "<span font-family='Font Awesome 6 Free'></span> {capacity}%",
+    "format-plugged": "  {capacity}%",
+    "format-alt": "{icon} {time}",
+    "format-full": "  {capacity}%",
+    "format-icons": [
+      " ",
+      " ",
+      " ",
+      " ",
+      " "
+    ]
+  },
+
+  "custom/weather": {
+    "format": "{} °",
+    "tooltip": true,
+    "interval": 3600,
+    "exec": "wttrbar --location guadalajara+jalisco --hide-conditions",
+    "return-type": "json",
+    "on-click": "yad --html --uri='https://wttr.in/guadalajara+jalisco' --center --fixed --width=1000 --height=680 --timeout=60 --timeout-indicator=right"
+  },
+
+  "mpris": {
+    "format": "{player_icon} {dynamic}",
+    "format-paused": "{status_icon} <i>{dynamic}</i>",
+    "on-scroll-up": "playerctl next",
+    "on-scroll-down": "playerctl previous",
+    "player-icons": {
+      "default": "▶",
+      "mpv": "🎵"
+    },
+    "status-icons": {
+      "paused": "⏸"
+    }
+  },
+
+  "custom/notification": {
+    "tooltip": false,
+    "format": "{icon}",
+    "format-icons": {
+      "notification": "",
+      "none": "",
+      "dnd-notification": "<",
+      "dnd-none": "",
+      "inhibited-notification": "",
+      "inhibited-none": "",
+      "dnd-inhibited-notification": "",
+      "dnd-inhibited-none": ""
+    },
+    "return-type": "json",
+    "exec-if": "which swaync-client",
+    "exec": "swaync-client -swb",
+    "on-click": "swaync-client -t -sw",
+    "on-click-right": "swaync-client -d -sw",
+    "escape": true
+  },
+
+  "custom/launcher": {
+    "format": " <span color='#6a92d7'> </span>",
+    "on-click": "rofi -show drun"
+  }
+}

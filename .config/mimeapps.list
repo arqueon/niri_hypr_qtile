@@ -1,0 +1,37 @@
+[Default Applications]
+x-scheme-handler/http=librewolf.desktop
+x-scheme-handler/https=librewolf.desktop
+x-scheme-handler/chrome=librewolf.desktop
+text/html=librewolf.desktop
+application/x-extension-htm=librewolf.desktop
+application/x-extension-html=librewolf.desktop
+application/x-extension-shtml=librewolf.desktop
+application/xhtml+xml=librewolf.desktop
+application/x-extension-xhtml=librewolf.desktop
+application/x-extension-xht=librewolf.desktop
+text/plain=sublime_text.desktop
+text/css=sublime_text.desktop;
+application/pdf=qpdfview.desktop
+text/csv=libreoffice-calc.desktop
+text/x-csrc=sublime_text.desktop;
+application/vnd.openxmlformats-officedocument.wordprocessingml.document=libreoffice-writer.desktop
+x-scheme-handler/mailto=google-chrome.desktop
+
+[Added Associations]
+x-scheme-handler/http=librewolf.desktop;
+x-scheme-handler/https=librewolf.desktop;
+x-scheme-handler/chrome=librewolf.desktop;
+text/html=librewolf.desktop;
+application/x-extension-htm=librewolf.desktop;
+application/x-extension-html=librewolf.desktop;
+application/x-extension-shtml=librewolf.desktop;
+application/xhtml+xml=librewolf.desktop;
+application/x-extension-xhtml=librewolf.desktop;
+application/x-extension-xht=librewolf.desktop;
+text/plain=org.pragtical.pragtical.desktop;org.gnome.gitlab.somas.Apostrophe.desktop;sublime_text.desktop;
+text/css=sublime_text.desktop;
+application/pdf=qpdfview.desktop;
+text/csv=libreoffice-calc.desktop;
+text/x-csrc=sublime_text.desktop;
+application/vnd.openxmlformats-officedocument.wordprocessingml.document=libreoffice-writer.desktop;
+application/vnd.ms-publisher=sublime_text.desktop;

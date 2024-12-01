@@ -1,0 +1,27 @@
+{
+    "/home/ruben/Descargas": {
+        "add_torrent_params": {
+            "category": "",
+            "content_layout": "Original",
+            "download_limit": -1,
+            "download_path": "/home/ruben/Descargas/temp",
+            "inactive_seeding_time_limit": -2,
+            "operating_mode": "AutoManaged",
+            "ratio_limit": -2,
+            "save_path": "/home/ruben/Descargas",
+            "seeding_time_limit": -2,
+            "share_limit_action": "Default",
+            "skip_checking": false,
+            "ssl_certificate": "",
+            "ssl_dh_params": "",
+            "ssl_private_key": "",
+            "stopped": false,
+            "tags": [
+            ],
+            "upload_limit": -1,
+            "use_auto_tmm": false,
+            "use_download_path": false
+        },
+        "recursive": false
+    }
+}

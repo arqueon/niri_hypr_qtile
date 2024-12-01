@@ -1,0 +1,42 @@
+# ZETTLR DEFAULTS FILE
+# ====================
+# Conversion: Markdown --> RichTextFormat
+# More info: https://pandoc.org/MANUAL.html
+reader: markdown
+writer: rtf
+self-contained: false
+variables: {}
+metadata-files: []
+include-before-body: []
+include-after-body: []
+include-in-header: []
+bibliography: []
+filters:
+- type: citeproc
+top-level-division: chapter
+pdf-engine: xelatex
+wrap: none
+columns: 78
+dpi: 72
+toc: false
+toc-depth: 2
+number-sections: false
+number-offset:
+- 0
+- 0
+- 0
+- 0
+- 0
+- 0
+section-divs: true
+identifier-prefix: ''
+title-prefix: ''
+eol: lf
+strip-comments: false
+ascii: false
+default-image-extension: .jpg
+highlight-style: pygments
+reference-doc: myref.docx
+tab-stop: 4
+preserve-tabs: false
+fail-if-warnings: false

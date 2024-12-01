@@ -1,0 +1,19 @@
+#!/usr/bin/env bash
+
+## Copyright (C) 2020-2022 Aditya Shakya <adi1090x@gmail.com>
+## Everyone is permitted to copy and distribute copies of this file under GNU-GPL3
+
+## launch waybar with alt config
+
+# Terminate already running bar instances
+killall -q waybar
+
+# Wait until the processes have been shut down
+while pgrep -x waybar >/dev/null; do sleep 1; done
+
+CONFIG="$HOME/.config/sway/waybar/config.ini"
+STYLE="$HOME/.config/sway/waybar/style.css"
+
+if [[ ! `pidof waybar` ]]; then
+	waybar --bar main-bar --log-level error --config ${CONFIG} --style ${STYLE} &
+fi

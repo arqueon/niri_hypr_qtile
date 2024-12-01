@@ -1,0 +1,40 @@
+# ZETTLR DEFAULTS FILE
+# ====================
+# Conversion: Markdown --> revealJS file
+# More info: https://pandoc.org/MANUAL.html
+reader: markdown
+writer: revealjs
+embed-resources: true # Embed all images, Javascript, and CSS in the presentation
+standalone: true # Add a footer and header to the file
+metadata-files: []
+include-before-body: []
+include-after-body: []
+include-in-header: []
+bibliography: []
+filters:
+- type: citeproc
+top-level-division: chapter
+number-sections: false
+number-offset:
+- 0
+- 0
+- 0
+- 0
+- 0
+- 0
+section-divs: true
+identifier-prefix: ''
+eol: lf
+strip-comments: false
+indented-code-classes: []
+ascii: false
+default-image-extension: .jpg
+highlight-style: pygments
+html-math-method:
+  method: mathjax
+  url: https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+tab-stop: 4
+preserve-tabs: false
+html-q-tags: false
+css: []
+fail-if-warnings: false

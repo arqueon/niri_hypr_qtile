@@ -1,0 +1,50 @@
+[09:08:14] [Info] こんにちは！ Booting Zettlr at Tue Nov 26 2024 09:08:14 GMT-0600 (hora estándar central).
+[09:08:14] [Info] Registering custom protocol safe-file
+[09:08:14] [Info] [Workspace Provider] Synchronized roots in 0 seconds
+[09:08:14] [Warning] [Assets Provider] Found outdated filter links.lua; copying ...
+[09:08:14] [Warning] [Assets Provider] Found outdated filter tags.lua; copying ...
+[09:08:14] [Info] [Citeproc Provider] Loading CSL locale file at /usr/lib/zettlr/app.asar/.webpack/main/assets/csl-locales/locales-es-ES.xml ...
+[09:08:14] [Info] [Update Provider] Checking https://zettlr.com/api/releases/latest for application updates ...
+[09:08:14] [Info] [Window Manager] Window Manager started.
+[09:08:14] [Info] [Document Manager] Restored 1 open windows.
+[09:08:14] [Info] [AppServiceContainer] Boot successful!
+[09:08:15] [Info] [Update Provider] No new update available. Current version is v3.3.1.
+[09:10:33] [Info] [Dictionary Provider] Loaded dictionaries: es-ES
+[09:10:36] [Info] [Dictionary Provider] Loaded dictionaries: es-ES, en-US
+[09:12:47] [Info] [Citeproc Provider] Loading database /media/insync/Insync/Transfer.Arqueonautis/Zettlr_zotero/zettlr.json
+[09:12:47] [Info] [Citeproc Provider] Database /media/insync/Insync/Transfer.Arqueonautis/Zettlr_zotero/zettlr.json loaded (25854 items).
+[09:13:32] [Warning] [R] [Main Window (acb20717-06de-48b7-b91b-dc13008a91bb)] Could not toggle main split component; expected state to be 'fileManager' or 'globalSearch', received undefined (index.js:2)
+[09:13:33] [Error] [R] [Main Window (acb20717-06de-48b7-b91b-dc13008a91bb)] ResizeObserver loop completed with undelivered notifications. (index.html?window_id=acb20717-06de-48b7-b91b-dc13008a91bb:0)
+[09:13:43] [Info] [FSALCache] Creating new shard: -2
+[09:13:43] [Info] [FSALCache] Creating new shard: 57
+[09:13:43] [Info] [FSALCache] Creating new shard: 18
+[09:13:44] [Info] [FSALCache] Creating new shard: 47
+[09:13:44] [Info] [FSALCache] Creating new shard: 13
+[09:13:44] [Info] [FSALCache] Creating new shard: 68
+[09:13:44] [Info] [FSALCache] Creating new shard: 15
+[09:13:44] [Info] [FSALCache] Creating new shard: 31
+[09:13:44] [Info] [FSALCache] Creating new shard: 12
+[09:13:44] [Info] [FSALCache] Creating new shard: -6
+[09:13:44] [Info] [FSALCache] Creating new shard: -9
+[09:13:54] [Info] [FSALCache] Creating new shard: 80
+[09:13:54] [Info] [FSALCache] Creating new shard: 39
+[09:13:54] [Info] [FSALCache] Creating new shard: -3
+[09:13:54] [Info] [FSALCache] Creating new shard: 92
+[09:13:54] [Info] [FSALCache] Creating new shard: 32
+[09:13:54] [Info] [FSALCache] Creating new shard: -7
+[09:13:54] [Info] [FSALCache] Creating new shard: 88
+[09:13:55] [Info] [FSALCache] Creating new shard: 76
+[09:13:55] [Info] [FSALCache] Creating new shard: 53
+[09:13:55] [Info] [FSALCache] Creating new shard: 44
+[09:13:55] [Info] [FSALCache] Creating new shard: -4
+[09:13:55] [Info] [FSALCache] Creating new shard: 89
+[09:13:55] [Info] [FSALCache] Creating new shard: 16
+[09:13:55] [Info] [FSALCache] Creating new shard: 36
+[09:13:55] [Info] [FSALCache] Creating new shard: 70
+[09:13:55] [Info] [Workspace Provider] Synchronized roots in 11.65 seconds
+[09:14:06] [Error] [Application] Error running LanguageTool: Response code 413 (Request Entity Too Large) | Native Error: HTTPError; Response code 413 (Request Entity Too Large) Stack Trace: HTTPError: Response code 413 (Request Entity Too Large) -->     at ae.<anonymous> (/usr/lib/zettlr/app.asar/.webpack/main/index.js:2:685831) -->     at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[09:14:13] [Error] [Application] Error running LanguageTool: Response code 413 (Request Entity Too Large) | Native Error: HTTPError; Response code 413 (Request Entity Too Large) Stack Trace: HTTPError: Response code 413 (Request Entity Too Large) -->     at ae.<anonymous> (/usr/lib/zettlr/app.asar/.webpack/main/index.js:2:685831) -->     at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[09:14:48] [Info] Successfully exported file to /tmp/01.pdf
+[09:15:57] [Info] さようなら！ Shutting down at Tue Nov 26 2024 09:15:57 GMT-0600 (hora estándar central)
+[09:15:57] [Info] Application uptime was: 7 minutes, and 43.42 seconds.
+[09:15:57] [Info] [FSAL Cache] Cleaned up cache: Removed 0 remnants.

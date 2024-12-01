@@ -1,0 +1,20 @@
+[19:48:06] [Info] こんにちは！ Booting Zettlr at Mon Nov 25 2024 19:48:06 GMT-0600 (hora estándar central).
+[19:48:06] [Info] Registering custom protocol safe-file
+[19:48:06] [Info] [FSALCache] Creating new shard: 14
+[19:48:06] [Info] [FSALCache] Creating new shard: 17
+[19:48:06] [Info] [FSALCache] Creating new shard: -1
+[19:48:06] [Info] [FSALCache] Creating new shard: 19
+[19:48:06] [Info] [FSALCache] Creating new shard: -5
+[19:48:06] [Info] [FSALCache] Creating new shard: 10
+[19:48:06] [Info] [Workspace Provider] Synchronized roots in 0.03 seconds
+[19:48:06] [Warning] [Assets Provider] Found outdated filter links.lua; copying ...
+[19:48:06] [Warning] [Assets Provider] Found outdated filter tags.lua; copying ...
+[19:48:06] [Info] [Citeproc Provider] Loading CSL locale file at /usr/lib/zettlr/app.asar/.webpack/main/assets/csl-locales/locales-es-ES.xml ...
+[19:48:06] [Info] [Update Provider] Checking https://zettlr.com/api/releases/latest for application updates ...
+[19:48:06] [Info] [Window Manager] Window Manager started.
+[19:48:06] [Info] [Document Manager] Restored 1 open windows.
+[19:48:06] [Info] [AppServiceContainer] Boot successful!
+[19:48:06] [Info] [Update Provider] No new update available. Current version is v3.3.1.
+[19:48:11] [Info] さようなら！ Shutting down at Mon Nov 25 2024 19:48:11 GMT-0600 (hora estándar central)
+[19:48:11] [Info] Application uptime was: 0 minutes, and 5.611 seconds.
+[19:48:11] [Info] [FSAL Cache] Cleaned up cache: Removed 0 remnants.

@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Version=1.0
+Name=expandrive --autorun
+Comment=expandrive --autorunstartup script
+Exec=/opt/ExpanDrive/expandrive --autorun
+StartupNotify=false
+Terminal=false

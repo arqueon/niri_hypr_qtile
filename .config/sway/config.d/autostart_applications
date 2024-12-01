@@ -1,0 +1,48 @@
+# sway does not set DISPLAY/WAYLAND_DISPLAY in the systemd user environment
+# See FS#63021
+# Adapted from xorg's 50-systemd-user.sh, which achieves a similar goal.
+
+# default greeting background
+output "*" bg /usr/share/backgrounds/arcolinux/arco-wallpaper.jpg fill
+
+exec systemctl --user import-environment DISPLAY WAYLAND_DISPLAY SWAYSOCK XDG_CURRENT_DESKTOP
+exec hash dbus-update-activation-environment 2>/dev/null && \
+     dbus-update-activation-environment --systemd DISPLAY WAYLAND_DISPLAY SWAYSOCK XDG_CURRENT_DESKTOP
+
+# Auth with polkit-gnome:
+exec /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1
+
+# Desktop notifications
+exec mako -c ~/.config/sway/mako/config
+ 
+# Autotiling
+exec autotiling
+
+# Wlsunset - night colors - install this application
+# exec ~/.config/sway/scripts/light.sh
+
+# Welcome
+exec dex -a -s /etc/xdg/autostart/:~/.config/autostart/
+
+# nm-applet
+exec nm-applet --indicator
+
+# Clipman wl-paste
+# exec clipman restore
+# exec wl-paste -t text --watch clipman store
+
+# Gnome Keyring
+exec gnome-keyring-daemon --daemonize --start --components=gpg,pkcs11,secrets,ssh
+
+# for Touchpad gestures - laptop
+# exec libinput-gestures-setup start
+
+# Xdg Desktop Portal
+# exec /usr/libexec/xdg-desktop-portal
+
+# nwg-drawer
+exec_always nwg-drawer -r
+
+exec ~/.config/hypr/scripts/startup.sh
+exec ~/.config/sway/scripts/statusbar
+exec swww-daemon
