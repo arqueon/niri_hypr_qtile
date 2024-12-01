@@ -14,7 +14,7 @@ This was created in an Arcolinux offline setup vía the [Arconet ISO](https://ww
 
 First, install the required packages:
 
-       yay -S alacritty anyrun-git btop catppuccin-gtk-theme-macchiato copyq fastfetch foot fuzzel grimblast hypridle hyprland hyprlock hyprpicker kvantum-theme-catppuccin-git lib32-pipewire libnotify niri nmtui pipewire playerctl polkit-gnome pyprland qtile rofi ruby-fusuma swayidle swaylock swaync swayosd-git swww sxhkd thunar volumectl waybar wldash wl-clipboard wlogout wlsunset wireplumber wlr-protocols wttr wttrbar xwayland-satellite xfce4-appfinder yad
+       yay -S alacritty anyrun-git btop catppuccin-gtk-theme-macchiato copyq fastfetch foot fuzzel grimblast hypridle hyprland hyprlock hyprpicker kvantum-theme-catppuccin-git lib32-pipewire libnotify niri nmtui papirus-icon-theme papirus-folders-catppuccin-git pipewire playerctl polkit-gnome pyprland qtile rofi ruby-fusuma swayidle swaylock swaync swayosd-git swww sxhkd thunar volumectl waybar wldash wl-clipboard wlogout wlsunset wireplumber wlr-protocols wttr wttrbar xwayland-satellite xfce4-appfinder yad
        
 #### Replace PulseAudio with PipeWire
 
@@ -29,6 +29,10 @@ This configuration utilizes PipeWire for audio management. If you prefer to use 
        sudo pacman -S pipewire-{jack,alsa,pulse}
        systemctl --user enable --now pipewire pipewire-pulse 
   
+#### More configurations
+
+
+
 #### Configuring Fusuma for Qtile (optional)
 
 This setup integrates [Fusuma](https://github.com/iberianpig/fusuma), a versatile tool that enables you to control your Qtile environment using intuitive touchpad gestures. 
