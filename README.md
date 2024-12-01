@@ -72,3 +72,15 @@ Here's how:
 * **Fork and Experiment:** Feel free to fork this repository and experiment with different settings. This allows you to safely test changes without affecting your main configuration.
 
 **Important Note:** It is strongly recommended to thoroughly test any modifications in a non-production environment before applying them to your primary system.
+
+## ArchLinux Tweak Tool (ATT)
+
+[ArchLinux Tweak Tool (ATT)](https://arcolinux.com/everything-you-need-to-know-about-the-arcolinux-tweak-tool/) is a versatile and powerful tool designed to simplify the customization of Arch-based systems. It can help you:
+
+* **Easily personalize your desktop environment.**
+* **Troubleshoot and fix common issues.**
+* **Install a wide variety of desktop environments and window managers.**
+
+ATT provides a user-friendly interface for managing various aspects of your system, making it an invaluable tool for both new and experienced Arch users.
+
+    yay -S arch;inux-tweak-tool
