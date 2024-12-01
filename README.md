@@ -94,9 +94,11 @@ Here's how:
 
 * **Explore the Configuration Files:** Dive into the various configuration files located in this repository. Each file controls a different aspect of the setup, allowing for granular customization.
 * **Consult the Documentation:** For detailed explanations and advanced options, refer to the official documentation for each tool:
+
     *   [Niri](https://github.com/YaLTeR/niri/wiki/Getting-Started)
     *   [Hyprland](https://wiki.hyprland.org/)
     *   [Qtile](https://docs.qtile.org/en/latest/)
+
 * **Fork and Experiment:** Feel free to fork this repository and experiment with different settings. This allows you to safely test changes without affecting your main configuration.
 
 **Important Note:** It is strongly recommended to thoroughly test any modifications in a non-production environment before applying them to your primary system.
