@@ -133,14 +133,14 @@ For an optimal experience, you'll need to adjust the input and output settings f
 
 Feel free to explore and customize your environment until it's perfect for you!
 
-## Important Note
+### Important Note
 
 It is **highly recommended** to test any modifications in a non-production environment before applying them to your main system. This ensures that all changes are safe and functional.
 
 Feel free to experiment and personalize this configuration to perfectly match your workflow!
 
 
-## ArcoLinux Tweak Tool (ATT)
+### ArcoLinux Tweak Tool (ATT)
 
 [ArcoLinux Tweak Tool (ATT)](https://arcolinux.com/everything-you-need-to-know-about-the-arcolinux-tweak-tool/) is a versatile and powerful tool designed to simplify the customization of Arch-based systems. It can help you:
 
