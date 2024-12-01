@@ -29,7 +29,7 @@ This configuration utilizes PipeWire for audio management. If you prefer to use 
        sudo pacman -S pipewire-{jack,alsa,pulse}
        systemctl --user enable --now pipewire pipewire-pulse 
   
-#### Configuring Fusuma for Qtile
+#### Configuring Fusuma for Qtile (optional)
 
 This setup integrates [Fusuma](https://github.com/iberianpig/fusuma), a versatile tool that enables you to control your Qtile environment using intuitive touchpad gestures. 
 
