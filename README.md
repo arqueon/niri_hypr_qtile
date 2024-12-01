@@ -47,7 +47,7 @@ By following the steps outlined in the guide, you can set up and customize `fusu
 
 1. Clone the repository:
 
-       git clone [repository url]
+       git clone https://github.com/arqueon/niri_hypr_qtile.git
 
 2. Copy the desired configuration files to your `$HOME` directory.
 
