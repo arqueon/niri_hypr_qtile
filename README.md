@@ -31,7 +31,9 @@ This configuration utilizes PipeWire for audio management. If you prefer to use 
   
 #### Configuring Fusuma for Qtile
 
-To configure [Fusuma](https://github.com/iberianpig/fusuma) for use with Qtile, follow this guide:
+This setup integrates [Fusuma](https://github.com/iberianpig/fusuma), a versatile tool that enables you to control your Qtile environment using intuitive touchpad gestures. 
+
+A functional configuration file (`fusuma/config.yml`) is already included in this repository. This provides a solid foundation for customization. You can modify this file to define your preferred gestures and actions, tailoring the experience to your specific needs.
 
 [How to Install and Customize Fusuma](https://dev.to/iberianpig/how-to-install-and-customize-fusuma-73l) 
 
