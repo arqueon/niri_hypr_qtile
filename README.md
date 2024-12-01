@@ -89,7 +89,7 @@ By following the steps outlined in the guide, you can set up and customize `fusu
 
 This repository provides a minimal foundation for setting up your workspace with Niri and Hyprland. But don't stop there! Adapt it to your liking and needs.
 
-**Here's how:**
+### Here's how
 
 * **Explore the configuration files:** Dive into the files within the repository. Each one controls a specific aspect, allowing for granular customization.
 
@@ -103,11 +103,11 @@ This repository provides a minimal foundation for setting up your workspace with
 
 **Important!** Test any modifications in a test environment before applying them to your main system.
 
-**Essential adjustments:**
+### Essential adjustments
 
 For an optimal experience, you'll need to adjust the input and output settings for Niri and Hyprland:
 
-**Niri:**
+#### Niri
 
 * **Input:**
 
@@ -119,7 +119,7 @@ For an optimal experience, you'll need to adjust the input and output settings f
   * Define the layout of your monitors, resolution, and scaling.
   * Customize the appearance of Niri with themes, colors, and fonts.
 
-**Hyprland:**
+#### Hyprland
 
 * **Input:**
 
