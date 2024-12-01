@@ -446,7 +446,7 @@ binds {
     Mod+F8 { spawn "qbittorrent"; }
     Mod+F9 { spawn "jdownloader"; }
     Mod+F10 { spawn "youtube-music"; }
-    Mod+F11 { spawn "kamoso"; }
+    Mod+F11 { spawn "mpv" "/dev/video2"; }
     Mod+F12 { spawn "wldash"; }
     Mod+Shift+C { spawn "guvcview"; }
     Mod+Shift+W { spawn "~/.config/niri/waybar.sh"; }

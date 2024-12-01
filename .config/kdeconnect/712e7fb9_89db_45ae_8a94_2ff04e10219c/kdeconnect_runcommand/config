@@ -1,0 +1,2 @@
+[General]
+commands="@ByteArray({\"_1ff800f3_1e27_4b6a_9e46_16811448a642_\":{\"command\":\"systemctl poweroff\",\"name\":\"Apagar\"},\"_27ac84b9_8019_42d7_802f_53ad241ffc1e_\":{\"command\":\"systemctl suspend\",\"name\":\"Suspender\"},\"_dfba2259_71bb_451b_b41b_9c2f1e928158_\":{\"command\":\"systemctl reboot\",\"name\":\"Reiniciar\"},\"_f6649ab6_766f_4fbf_9266_33b48902f42b_\":{\"command\":\"swaylock\",\"name\":\"Bloquear pantalla\"}})"
