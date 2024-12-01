@@ -1,8 +1,8 @@
-# Niri, Hyprland and Qtile dotfiles for [Arcolinux](https://www.arcolinux.info/)
+# Niri, Hyprland and Qtile dotfiles for [ArcoLinux](https://www.arcolinux.info/)
 
 ## Dependencies
 
-This repository provides _dotfiles_ for a customized desktop environment on [Arcolinux](https://www.arcolinux.info/), featuring the [Niri](https://github.com/YaLTeR/niri) compositor, [Hyprland](https://github.com/hyprwm/Hyprland) and [Qtile](https://github.com/qtile/qtile) window managers.
+This repository provides _dotfiles_ for a customized desktop environment on [ArcoLinux](https://www.arcolinux.info/), featuring the [Niri](https://github.com/YaLTeR/niri) compositor, [Hyprland](https://github.com/hyprwm/Hyprland) and [Qtile](https://github.com/qtile/qtile) window managers.
 
 - **Niri:** A Wayland compositor known for its performance and minimalist design, inspired in PaperWM. 
 - **Hyprland:** A dynamic tiling window manager offering extensive customization. 
@@ -73,9 +73,9 @@ Here's how:
 
 **Important Note:** It is strongly recommended to thoroughly test any modifications in a non-production environment before applying them to your primary system.
 
-## ArchLinux Tweak Tool (ATT)
+## ArcoLinux Tweak Tool (ATT)
 
-[ArchLinux Tweak Tool (ATT)](https://arcolinux.com/everything-you-need-to-know-about-the-arcolinux-tweak-tool/) is a versatile and powerful tool designed to simplify the customization of Arch-based systems. It can help you:
+[ArcoLinux Tweak Tool (ATT)](https://arcolinux.com/everything-you-need-to-know-about-the-arcolinux-tweak-tool/) is a versatile and powerful tool designed to simplify the customization of Arch-based systems. It can help you:
 
 * **Easily personalize your desktop environment.**
 * **Troubleshoot and fix common issues.**
@@ -83,4 +83,4 @@ Here's how:
 
 ATT provides a user-friendly interface for managing various aspects of your system, making it an invaluable tool for both new and experienced Arch users.
 
-    yay -S arch;inux-tweak-tool
+    yay -S arcoinux-tweak-tool
