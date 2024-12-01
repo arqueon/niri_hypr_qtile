@@ -1,6 +1,6 @@
 # Niri, Hyprland and Qtile dotfiles for [ArcoLinux](https://www.arcolinux.info/)
 
-![image](https://github.com/user-attachments/assets/157d6b5b-aae8-4b7e-a36e-149b7365a555)
+![image](https://github.com/user-attachments/assets/ca9bfc13-b453-450a-899a-0d72e327a4ae)
 ![image](https://github.com/user-attachments/assets/586ee510-9e5d-485e-916f-d5025f872759)
 
 ## Dependencies
