@@ -1,5 +1,7 @@
 # Niri, Hyprland and Qtile dotfiles for [ArcoLinux](https://www.arcolinux.info/)
 
+![image](https://github.com/user-attachments/assets/37f9f912-9b73-4d53-8d56-ba78e1e2ecff)
+
 ## Dependencies
 
 This repository provides _dotfiles_ for a customized desktop environment on [ArcoLinux](https://www.arcolinux.info/), featuring the [Niri](https://github.com/YaLTeR/niri) compositor, [Hyprland](https://github.com/hyprwm/Hyprland) and [Qtile](https://github.com/qtile/qtile) window managers.
