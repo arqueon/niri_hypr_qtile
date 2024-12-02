@@ -292,7 +292,6 @@ ATT provides a user-friendly interface for managing various aspects of your syst
 *  Remember that you can further customize these binds or add new ones in your `config.kdl` file.
 
 ### Hyprland 
-Okay, here's a Markdown table summarizing your Hyprland keybinds, categorized for better readability:
 
 | Category | Keybind | Action |
 |---|---|---|
