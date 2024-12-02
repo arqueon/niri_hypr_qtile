@@ -1,7 +1,10 @@
 # Niri, Hyprland and Qtile dotfiles for [ArcoLinux](https://www.arcolinux.info/)
 
+## Niri
 ![image](https://github.com/user-attachments/assets/ca9bfc13-b453-450a-899a-0d72e327a4ae)
+## Hyprland
 ![image](https://github.com/user-attachments/assets/586ee510-9e5d-485e-916f-d5025f872759)
+## Qtile
 ![image](https://github.com/user-attachments/assets/643f8d4c-5871-42eb-a7fc-76ea33e45f36)
 
 ## Dependencies
@@ -157,3 +160,136 @@ Feel free to experiment and personalize this configuration to perfectly match yo
 ATT provides a user-friendly interface for managing various aspects of your system, making it an invaluable tool for both new and experienced Arch users.
 
     yay -S archlinux-tweak-tool-git
+## Keybinds
+
+### Niri
+You got it! Here's a Markdown table of your Niri WM keybinds, organized by category:
+
+| Category | Keybind | Action |
+|---|---|---|
+| **Launching** | `Mod+D` |  Launch Fuzzel (application launcher) |
+|  | `Mod+Return` | Launch Alacritty (terminal emulator) |
+|  | `Mod+Space` | Launch Anyrun | 
+|  | `Mod+period` | Launch Anyrun |
+|  | `Mod+Shift+Return` | Launch Thunar (file manager) |
+|  | `Mod+F1` | Launch Google Chrome |
+|  | `Mod+F2` | Launch Ferdium |
+|  | `Mod+F3` | Launch Zotero |
+|  | `Mod+F4` | Launch Logseq |
+|  | `Mod+F5` | Launch Zettlr |
+|  | `Mod+F6` | Launch Doublecmd |
+|  | `Mod+F7` | Launch Virt-manager |
+|  | `Mod+F8` | Launch Qbittorrent |
+|  | `Mod+F9` | Launch Jdownloader |
+|  | `Mod+F10` | Launch Youtube-music |
+|  | `Mod+F11` | Launch MPV (to `/dev/video2`) |
+|  | `Mod+F12` | Launch Wldash |
+|  | `Mod+Shift+C` | Launch Guvcview |
+
+| **Window Management** | Keybind | Action |
+|---|---|---|
+| **Focus** | `Mod+Left` | Focus column to the left |
+|  | `Mod+Down` | Focus window or workspace down |
+|  | `Mod+Up` | Focus window or workspace up |
+|  | `Mod+Right` | Focus column to the right |
+|  | `Mod+Home` | Focus first column |
+|  | `Mod+End` | Focus last column |
+| **Move** | `Mod+Ctrl+Left` | Move column left |
+|  | `Mod+Ctrl+Down` | Move window down |
+|  | `Mod+Ctrl+Up` | Move window up |
+|  | `Mod+Ctrl+Right` | Move column right |
+|  | `Mod+Ctrl+H` | Move column left |
+|  | `Mod+Ctrl+J` | Move window down |
+|  | `Mod+Ctrl+K` | Move window up |
+|  | `Mod+Ctrl+L` | Move column right |
+|  | `Mod+Ctrl+Home` | Move column to first position |
+|  | `Mod+Ctrl+End` | Move column to last position |
+| **Resize** | `Mod+R` | Switch preset column width |
+|  | `Mod+Shift+R` | Reset window height |
+|  | `Mod+Minus` | Decrease column width |
+|  | `Mod+Equal` | Increase column width |
+|  | `Mod+Shift+Minus` | Decrease window height |
+|  | `Mod+Shift+Equal` | Increase window height |
+| **Other** |  `Mod+Q` | Close window |
+|  | `Mod+I` | Consume window into column |
+|  | `Mod+O` | Expel window from column |
+|  | `Mod+BracketLeft` | Consume or expel window left |
+|  | `Mod+BracketRight` | Consume or expel window right |
+|  | `Mod+F` | Maximize column |
+|  | `Mod+Shift+F` | Fullscreen window |
+|  | `Mod+C` | Center column |
+
+| **Workspace Management** | Keybind | Action |
+|---|---|---|
+| **Focus** | `Mod+Page_Down` | Focus workspace down |
+|  | `Mod+Page_Up` | Focus workspace up |
+|  | `Mod+1` | Focus workspace 1 |
+|  | `Mod+2` | Focus workspace 2 |
+|  | `Mod+3` | Focus workspace 3 |
+|  | `Mod+4` | Focus workspace 4 |
+|  | `Mod+5` | Focus workspace 5 |
+|  | `Mod+6` | Focus workspace 6 |
+|  | `Mod+7` | Focus workspace 7 |
+|  | `Mod+8` | Focus workspace 8 |
+|  | `Mod+9` | Focus workspace 9 |
+|  | `Mod+Tab` | Focus previous workspace |
+| **Move** | `Mod+Ctrl+Page_Down` | Move column to workspace down |
+|  | `Mod+Ctrl+Page_Up` | Move column to workspace up |
+|  | `Mod+Ctrl+U` | Move column to workspace down |
+|  | `Mod+Ctrl+I` | Move column to workspace up |
+|  | `Mod+Shift+Page_Down` | Move workspace down |
+|  | `Mod+Shift+Page_Up` | Move workspace up |
+|  | `Mod+Shift+U` | Move workspace down |
+|  | `Mod+Shift+I` | Move workspace up |
+|  | `Mod+Shift+1` | Move column to workspace 1 |
+|  | `Mod+Shift+2` | Move column to workspace 2 |
+|  | `Mod+Shift+3` | Move column to workspace 3 |
+|  | `Mod+Shift+4` | Move column to workspace 4 |
+|  | `Mod+Shift+5` | Move column to workspace 5 |
+|  | `Mod+Shift+6` | Move column to workspace 6 |
+|  | `Mod+Shift+7` | Move column to workspace 7 |
+|  | `Mod+Shift+8` | Move column to workspace 8 |
+|  | `Mod+Shift+9` | Move column to workspace 9 |
+
+| **Monitor Management** | Keybind | Action |
+|---|---|---|
+| **Focus** | `Mod+Shift+Left` | Focus monitor to the left |
+|  | `Mod+Shift+Down` | Focus monitor down |
+|  | `Mod+Shift+Up` | Focus monitor up |
+|  | `Mod+Shift+Right` | Focus monitor to the right |
+| **Move** | `Mod+Shift+Ctrl+Left` | Move column to monitor on the left |
+|  | `Mod+Shift+Ctrl+Down` | Move column to monitor down |
+|  | `Mod+Shift+Ctrl+Up` | Move column to monitor up |
+|  | `Mod+Shift+Ctrl+Right` | Move column to monitor on the right |
+|  | `Mod+Alt+Ctrl+Left` | Move workspace to monitor on the left |
+|  | `Mod+Alt+Ctrl+Right` | Move workspace to monitor on the right |
+
+| **System** | Keybind | Action |
+|---|---|---|
+|  | `Mod+Shift+Slash` | Show hotkey overlay |
+|  | `Ctrl+Alt+Escape` |  Launch screen locker script |
+|  | `Mod+L` | Launch screen locker script |
+|  | `Mod+X` | Launch nwg-bar |
+|  | `Mod+Z` | Restart xwayland-satellite | 
+|  | `Mod+Escape` | Launch btop |
+|  | `Mod+Shift+W` | Launch Waybar script |
+|  | `XF86AudioLowerVolume` | Lower volume |
+|  | `XF86AudioMute` | Toggle mute |
+|  | `XF86AudioRaiseVolume` | Raise Volume |
+|  | `XF86MonBrightnessDown` | Decrease brightness |
+|  | `XF86MonBrightnessUp` | Increase brightness |
+|  | `F11` | Lower volume |
+|  | `F10` | Toggle mute |
+|  | `F12` | Raise volume |
+|  | `Print` | Take screenshot |
+|  | `Ctrl+Print` | Take screenshot of screen |
+|  | `Alt+Print` | Take screenshot of window |
+|  | `Mod+Shift+E` | Exit Niri |
+|  | `Mod+Shift+P` | Power off monitors |
+
+**Notes:**
+
+*  `Mod` is usually the Super key (Windows key).
+*  Remember that you can further customize these binds or add new ones in your `config.kdl` file.
+
+### Hyprland 
