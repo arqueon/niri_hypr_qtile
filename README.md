@@ -427,7 +427,7 @@ Okay, here's a Markdown table summarizing your Hyprland keybinds, categorized fo
 
 ### Qtile 
 
-You're providing a mix of Qtile (from `config.py`) and sxhkd keybinds. I'll create a combined table, noting which keybinds come from which system.
+From a mix of Qtile (from `config.py`) and `sxhkd` keybinds.
 
 | Category | Keybind | Action | Source |
 |---|---|---|---|
