@@ -157,7 +157,7 @@ Feel free to experiment and personalize this configuration to perfectly match yo
 * **Troubleshoot and fix common issues.**
 * **Install a wide variety of desktop environments and window managers.**
 
-ATT provides a user-friendly interface for managing various aspects of your system, making it an invaluable tool for both new and experienced Arch users.
+ATT provides a user-friendly interface for managing various aspects of your system, making it an invaluable tool for both new and experienced Arch users. It works in a variety of Ach Linux based distros. 
 
     yay -S archlinux-tweak-tool-git
 ## Keybinds for Niri, Hyprland and Qtile
