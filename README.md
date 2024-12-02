@@ -160,7 +160,7 @@ Feel free to experiment and personalize this configuration to perfectly match yo
 ATT provides a user-friendly interface for managing various aspects of your system, making it an invaluable tool for both new and experienced Arch users.
 
     yay -S archlinux-tweak-tool-git
-## Keybinds
+## Keybinds for Niri, Hyprland and Qtile
 
 ### Niri
 
