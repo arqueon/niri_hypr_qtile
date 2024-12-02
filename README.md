@@ -161,9 +161,9 @@ ATT provides a user-friendly interface for managing various aspects of your syst
 
     yay -S archlinux-tweak-tool-git
 ## Keybinds
+Customize this keybinds as you like in `config.kdl`. 
 
 ### Niri
-You got it! Here's a Markdown table of your Niri WM keybinds, organized by category:
 
 | Category | Keybind | Action |
 |---|---|---|
