@@ -161,7 +161,6 @@ ATT provides a user-friendly interface for managing various aspects of your syst
 
     yay -S archlinux-tweak-tool-git
 ## Keybinds
-Customize this keybinds as you like in `config.kdl`. 
 
 ### Niri
 
@@ -293,3 +292,302 @@ Customize this keybinds as you like in `config.kdl`.
 *  Remember that you can further customize these binds or add new ones in your `config.kdl` file.
 
 ### Hyprland 
+Okay, here's a Markdown table summarizing your Hyprland keybinds, categorized for better readability:
+
+| Category | Keybind | Action |
+|---|---|---|
+| **Launching** | `$mainMod, Return` | Launch Alacritty (terminal) |
+|  | `$mainMod SHIFT, Return` | Launch Thunar (file manager) |
+|  | `$mainMod, D` | Launch dmenu  |
+|  | `$mainMod, B` | Launch librewolf (browser) |
+|  | `$mainMod SHIFT, B` | Launch Google Chrome |
+|  | `$mainMod, E` | Launch Thunar |
+|  | `$mainMod SHIFT, P` | Launch passmenu |
+|  | `$mainMod, F1` | Launch Google Chrome |
+|  | `$mainMod, F2` | Launch Ferdium |
+|  | `$mainMod, F3` | Launch Zotero |
+|  | `$mainMod, F4` | Launch Logseq |
+|  | `$mainMod, F5` | Launch Zettlr |
+|  | `$mainMod, F6` | Launch Doublecmd |
+|  | `$mainMod, F7` | Launch Virt-manager |
+|  | `$mainMod, F8` | Launch Qbittorrent |
+|  | `$mainMod, F9` | Launch Jdownloader |
+|  | `$mainMod, F10` | Launch Youtube-music |
+|  | `$mainMod, F11` | Launch Kamoso |
+|  | `$mainMod, F12` | Launch Pamac-manager |
+|  | `ALT, F3` | Launch xfce4-appfinder |
+|  | `CTRL ALT, P` | Launch Pamac-manager |
+|  | `$mainMod, Space` | Launch Rofi |
+
+
+| **Window Management** | Keybind | Action |
+|---|---|---|
+| **Focus** | `$mainMod, left` | Move focus left |
+|  | `$mainMod, right` | Move focus right |
+|  | `$mainMod, up` | Move focus up |
+|  | `$mainMod, down` | Move focus down |
+|  | `$mainMod, H` | Move focus left |
+|  | `$mainMod, L` | Move focus right |
+|  | `$mainMod, K` | Move focus up |
+|  | `$mainMod, J` | Move focus down |
+| **Move** | `$mainMod SHIFT, left` | Move window left |
+|  | `$mainMod SHIFT, right` | Move window right |
+|  | `$mainMod SHIFT, up` | Move window up |
+|  | `$mainMod SHIFT, down` | Move window down |
+|  | `$mainMod SHIFT, H` | Move window left |
+|  | `$mainMod SHIFT, L` | Move window right |
+|  | `$mainMod SHIFT, K` | Move window up |
+|  | `$mainMod SHIFT, J` | Move window down |
+| **Resize** | `$mainMod, R` | Enter resize submap |
+|  | (in resize submap) `, right` | Resize active window right |
+|  | (in resize submap) `, left` | Resize active window left |
+|  | (in resize submap) `, up` | Resize active window up |
+|  | (in resize submap) `, down` | Resize active window down |
+|  | (in resize submap) `, l` | Resize active window right |
+|  | (in resize submap) `, h` | Resize active window left |
+|  | (in resize submap) `, k` | Resize active window up |
+|  | (in resize submap) `, j` | Resize active window down |
+|  | (in resize submap) `, escape` | Exit resize submap |
+|  | `$mainMod, R` | Exit resize submap |
+| **Other** | `$mainMod, Q` | Kill active window |
+|  | `$mainMod SHIFT, A` | Toggle floating |
+|  | `$mainMod, F` | Fullscreen |
+|  | `$mainMod, C` | Center window |
+|  | `$mainMod CTRL, P` | Pin window |
+|  | `$mainMod, P` | Enter pseudo-tile mode |
+
+
+| **Workspace Management** | Keybind | Action |
+|---|---|---|
+| **Focus** | `$mainMod, 1` | Focus workspace 1 |
+|  | `$mainMod, 2` | Focus workspace 2 |
+|  | `$mainMod, 3` | Focus workspace 3 |
+|  | `$mainMod, 4` | Focus workspace 4 |
+|  | `$mainMod, 5` | Focus workspace 5 |
+|  | `$mainMod, 6` | Focus workspace 6 |
+|  | `$mainMod, 7` | Focus workspace 7 |
+|  | `$mainMod, 8` | Focus workspace 8 |
+|  | `$mainMod, 9` | Focus workspace 9 |
+|  | `$mainMod, 0` | Focus workspace 10 |
+|  | `$mainMod, mouse_down` | Focus next workspace |
+|  | `$mainMod, mouse_up` | Focus previous workspace |
+|  | `$mainMod CTRL, left` | Change workspace +1 (using Pyprland) |
+|  | `$mainMod CTRL, right` | Change workspace -1 (using Pyprland) |
+| **Move** | `$mainMod SHIFT, 1` | Move to workspace 1 |
+|  | `$mainMod SHIFT, 2` | Move to workspace 2 |
+|  | `$mainMod SHIFT, 3` | Move to workspace 3 |
+|  | `$mainMod SHIFT, 4` | Move to workspace 4 |
+|  | `$mainMod SHIFT, 5` | Move to workspace 5 |
+|  | `$mainMod SHIFT, 6` | Move to workspace 6 |
+|  | `$mainMod SHIFT, 7` | Move to workspace 7 |
+|  | `$mainMod SHIFT, 8` | Move to workspace 8 |
+|  | `$mainMod SHIFT, 9` | Move to workspace 9 |
+|  | `$mainMod SHIFT, 0` | Move to workspace 10 |
+| **Other** | `$mainMod SHIFT, MINUS` | Move to special workspace |
+|  | `$mainMod, MINUS` | Toggle special workspace |
+
+| **System** | Keybind | Action |
+|---|---|---|
+| **Audio** | `XF86AudioRaiseVolume` | Increase volume |
+|  | `XF86AudioLowerVolume` | Decrease volume |
+|  | `XF86AudioMute` | Toggle mute |
+|  | `$mainMod SHIFT, O` | Toggle mute |
+|  | `XF86AudioMicMute` | Toggle microphone mute |
+|  | `$mainMod SHIFT, M` | Toggle microphone mute |
+|  | `F10` | Toggle mute |
+|  | `F11` | Decrease volume |
+|  | `F12` | Increase volume |
+| **Brightness** | `XF86MonBrightnessUp` | Increase brightness |
+|  | `XF86MonBrightnessDown` | Decrease brightness |
+| **Screenshots** | `$mainMod SHIFT, S` | Copy area screenshot |
+|  | `$mainMod SHIFT CTRL, S` | Save area screenshot |
+|  | `$mainMod, Print` | Copy area screenshot |
+|  | `$mainMod SHIFT, X` | Copy output screenshot |
+|  | `$mainMod SHIFT CTRL, X` | Save output screenshot |
+| **Other** | `$mainMod SHIFT, Delete` | Exit Hyprland |
+|  | `$mainMod SHIFT, C` | Copy color under cursor |
+|  | `$mainMod SHIFT, R` | Start screen recording |
+|  | `$mainMod, V` | Toggle CopyQ |
+|  | `$mainMod SHIFT, Q` | Run system action script |
+|  | `$mainMod ALT, L` | Pause player and lock screen |
+|  | `$mainMod, L` | Lock screen |
+|  | `$mainMod, X` | Launch wlogout |
+|  | `$mainMod SHIFT, W` | Launch Waybar script |
+|  | `$mainMod SHIFT, I` | Shift monitors (using Pyprland) |
+|  | `$mainMod ALT, P` | Toggle DPMS (using Pyprland) |
+|  | `$mainMod SHIFT, T` | Toggle dropdown terminal (using Pyprland) |
+|  | `$mainMod, Z` | Toggle zoom (using Pyprland) |
+
+**Notes:**
+
+* `$mainMod` is your main modifier key, which you define in your Hyprland configuration.
+* This table omits the mouse button binds for moving and resizing windows.
+* Some functionalities are achieved through external scripts or programs.
+* You can always customize or add more keybinds in your Hyprland configuration file.
+
+### Qtile 
+
+You're providing a mix of Qtile (from `config.py`) and sxhkd keybinds. I'll create a combined table, noting which keybinds come from which system.
+
+| Category | Keybind | Action | Source |
+|---|---|---|---|
+| **Launching** | `super + F1` | Launch Google Chrome | sxhkd |
+|  | `super + F2` | Launch Ferdium | sxhkd |
+|  | `super + F3` | Launch Zotero | sxhkd |
+|  | `super + F4` | Launch Logseq | sxhkd |
+|  | `super + F5` | Launch Zettlr | sxhkd |
+|  | `super + F6` | Launch Doublecmd | sxhkd |
+|  | `super + F7` | Launch Virt-manager | sxhkd |
+|  | `super + F8` | Launch Qbittorrent | sxhkd |
+|  | `super + F9` | Launch Jdownloader | sxhkd |
+|  | `super + F10` | Toggle audio mute | sxhkd |
+|  | `super + F11` | Decrease volume | sxhkd |
+|  | `super + F12` | Increase volume | sxhkd |
+|  | `super + e` | Launch Geany | sxhkd |
+|  | `super + w` | Launch Google Chrome | sxhkd |
+|  | `super + ctrl + c` | Kill all Conky processes | sxhkd |
+|  | `super + x` | Launch archlinux-logout | sxhkd |
+|  | `super + r` | Launch rofi-theme-selector | sxhkd |
+|  | `super + t` | Launch urxvt | sxhkd |
+|  | `super + v` | Launch pavucontrol | sxhkd |
+|  | `super + Return` | Launch alacritty | sxhkd |
+|  | `super + Escape` | Launch xkill | sxhkd |
+|  | `super + KP_Enter` | Launch alacritty | sxhkd |
+|  | `super + shift + Return` | Launch Thunar | sxhkd |
+|  | `super + shift + d` | Launch dmenu_run | sxhkd |
+|  | `ctrl + alt + w` | Launch arcolinux-welcome-app | sxhkd |
+|  | `ctrl + alt + e` | Launch archlinux-tweak-tool | sxhkd |
+|  | `ctrl + alt + b` | Launch Thunar | sxhkd |
+|  | `ctrl + alt + c` | Launch Catfish | sxhkd |
+|  | `ctrl + alt + g` | Launch Chromium | sxhkd |
+|  | `ctrl + alt + f` | Launch Firefox | sxhkd |
+|  | `ctrl + alt + i` | Launch Nitrogen | sxhkd |
+|  | `ctrl + alt + k` | Launch archlinux-logout | sxhkd |
+|  | `ctrl + alt + l` | Launch archlinux-logout | sxhkd |
+|  | `ctrl + alt + p` | Launch Pamac-manager | sxhkd |
+|  | `ctrl + alt + m` | Launch xfce4-settings-manager | sxhkd |
+|  | `ctrl + alt + u` | Launch pavucontrol | sxhkd |
+|  | `ctrl + alt + r` | Launch rofi-theme-selector | sxhkd |
+|  | `ctrl + alt + s` | Launch Spotify | sxhkd |
+|  | `ctrl + alt + Return` | Launch alacritty | sxhkd |
+|  | `ctrl + alt + t` | Launch alacritty | sxhkd |
+|  | `ctrl + alt + v` | Launch Google Chrome | sxhkd |
+|  | `ctrl + alt + a` | Launch xfce4-appfinder | sxhkd |
+|  | `alt + F2` | Launch xfce4-appfinder (collapsed) | sxhkd |
+|  | `alt + F3` | Launch xfce4-appfinder | sxhkd |
+|  | `ctrl + shift + Escape` | Launch xfce4-taskmanager | sxhkd |
+|  | `ctrl + Print` | Launch xfce4-screenshooter | sxhkd |
+|  | `ctrl + shift + Print` | Launch gnome-screenshot | sxhkd |
+|  | `ctrl + alt + o` | Launch picom-toggle.sh | sxhkd |
+|  | `mod, Return` | Launch alacritty | Qtile |
+
+| **Window Management** | Keybind | Action | Source |
+|---|---|---|---|
+| **Focus** | `mod + Up` | Focus window above | Qtile |
+|  | `mod + Down` | Focus window below | Qtile |
+|  | `mod + Left` | Focus window on the left | Qtile |
+|  | `mod + Right` | Focus window on the right | Qtile |
+|  | `mod + k` | Focus window above | Qtile |
+|  | `mod + j` | Focus window below | Qtile |
+|  | `mod + h` | Focus window on the left | Qtile |
+|  | `mod + l` | Focus window on the right | Qtile |
+| **Move** | `mod + shift + Up` | Shuffle window up | Qtile |
+|  | `mod + shift + Down` | Shuffle window down | Qtile |
+|  | `mod + shift + Left` | Swap window left | Qtile |
+|  | `mod + shift + Right` | Swap window right | Qtile |
+|  | `mod + shift + k` | Shuffle window up | Qtile |
+|  | `mod + shift + j` | Shuffle window down | Qtile |
+|  | `mod + shift + h` | Swap window left | Qtile |
+|  | `mod + shift + l` | Swap window right | Qtile |
+| **Resize** | `mod + control + h` | Increase window size to the left | Qtile |
+|  | `mod + control + Right` | Increase window size to the right | Qtile |
+|  | `mod + control + l` | Decrease window size to the right | Qtile |
+|  | `mod + control + Left` | Decrease window size to the left | Qtile |
+|  | `mod + control + k` | Increase window size upwards | Qtile |
+|  | `mod + control + Up` | Increase window size upwards | Qtile |
+|  | `mod + control + j` | Decrease window size downwards | Qtile |
+|  | `mod + control + Down` | Decrease window size downwards | Qtile |
+| **Other** | `mod + f` | Toggle fullscreen | Qtile |
+|  | `mod + q` | Close window | Qtile |
+|  | `mod + shift + space` | Toggle floating | Qtile |
+
+
+| **Workspace Management** | Keybind | Action | Source |
+|---|---|---|---|
+| **Focus** | `mod + 1` | Focus group 1 | Qtile |
+|  | `mod + 2` | Focus group 2 | Qtile |
+|  | `mod + 3` | Focus group 3 | Qtile |
+|  | `mod + 4` | Focus group 4 | Qtile |
+|  | `mod + 5` | Focus group 5 | Qtile |
+|  | `mod + 6` | Focus group 6 | Qtile |
+|  | `mod + 7` | Focus group 7 | Qtile |
+|  | `mod + 8` | Focus group 8 | Qtile |
+|  | `mod + 9` | Focus group 9 | Qtile |
+|  | `mod + 0` | Focus group 10 | Qtile |
+|  | `mod + minus` | Focus group 11 | Qtile |
+|  | `mod + equal` | Focus group 12 | Qtile |
+|  | `mod1 + Tab` | Focus next group | Qtile |
+|  | `mod1 + shift + Tab` | Focus previous group | Qtile |
+| **Move** | `mod + shift + 1` | Move to group 1 | Qtile |
+|  | `mod + shift + 2` | Move to group 2 | Qtile |
+|  | `mod + shift + 3` | Move to group 3 | Qtile |
+|  | `mod + shift + 4` | Move to group 4 | Qtile |
+|  | `mod + shift + 5` | Move to group 5 | Qtile |
+|  | `mod + shift + 6` | Move to group 6 | Qtile |
+|  | `mod + shift + 7` | Move to group 7 | Qtile |
+|  | `mod + shift + 8` | Move to group 8 | Qtile |
+|  | `mod + shift + 9` | Move to group 9 | Qtile |
+|  | `mod + shift + 0` | Move to group 10 | Qtile |
+|  | `mod + shift + minus` | Move to group 11 | Qtile |
+|  | `mod + shift + equal` | Move to group 12 | Qtile |
+
+| **Monitor Management** | Keybind | Action | Source |
+|---|---|---|---|
+| **Focus** | `mod + i` | Focus monitor 1 | Qtile |
+|  | `mod + o` | Focus monitor 2 | Qtile |
+|  | `mod + period` | Focus next monitor | Qtile |
+|  | `mod + comma` | Focus previous monitor | Qtile |
+| **Move** | `mod + shift + Right` | Move window to next monitor | Qtile |
+|  | `mod + shift + Left` | Move window to previous monitor | Qtile |
+
+| **System** | Keybind | Action | Source |
+|---|---|---|---|
+| **Qtile** | `mod + shift + r` | Restart Qtile | Qtile |
+|  | `mod + shift + x` | Shutdown Qtile | Qtile |
+|  | `mod + r` | Reset layout | Qtile |
+|  | `mod + Tab` | Next layout | Qtile |
+|  | `mod + shift + f` | Flip layout | Qtile |
+| **sxhkd** | `super + shift + s` | Reload sxhkd | sxhkd |
+|  | `alt + t` | Move wallpaper to trash | sxhkd |
+|  | `alt + n` | Next wallpaper | sxhkd |
+|  | `alt + p` | Previous wallpaper | sxhkd |
+|  | `alt + f` | Favorite wallpaper | sxhkd |
+|  | `alt + Left` | Previous wallpaper | sxhkd |
+|  | `alt + Right` | Next wallpaper | sxhkd |
+|  | `alt + Up` | Toggle pause wallpaper | sxhkd |
+|  | `alt + Down` | Resume wallpaper | sxhkd |
+|  | `alt + shift + t` | Trash wallpaper and update pywal | sxhkd |
+|  | `alt + shift + n` | Next wallpaper and update pywal | sxhkd |
+|  | `alt + shift + p` | Previous wallpaper and update pywal | sxhkd |
+|  | `alt + shift + f` | Favorite wallpaper and update pywal | sxhkd |
+|  | `alt + shift + u` | Update pywal | sxhkd |
+|  | `Print` | Take screenshot with scrot | sxhkd |
+|  | `XF86AudioRaiseVolume` | Increase volume | sxhkd |
+|  | `XF86AudioLowerVolume` | Decrease volume | sxhkd |
+|  | `XF86AudioMute` | Toggle mute | sxhkd |
+|  | `XF86AudioPlay` | Play/pause (playerctl) | sxhkd |
+|  | `XF86AudioNext` | Next track (playerctl) | sxhkd |
+|  | `XF86AudioPrev` | Previous track (playerctl) | sxhkd |
+|  | `XF86AudioStop` | Stop (playerctl) | sxhkd |
+|  | `XF86MonBrightnessUp` | Increase brightness | sxhkd |
+|  | `XF86MonBrightnessDown` | Decrease brightness | sxhkd |
+
+**Notes:**
+
+* `super` is the Super key (Windows key).
+* `mod` is `mod4`, which is also the Super key.
+* `mod1` is `Alt`.
+* This table combines keybinds from both Qtile `config.py` and sxhkd configuration.
+* Some actions are handled by external scripts.
+* You can customize or add more keybinds in your respective configuration files.
+
