@@ -1,20 +1,20 @@
-image=~/.config/wallpaper/default.jpg
+image=~/wallpaper/default.jpg
 clock
 ignore-empty-password
 font=Fairiesevka Nerd Font
 font-size=64
-text-color=d2813dff
+text-color=A6DA95
 text-ver-color=00000000
 text-wrong-color=d58888ff
 effect-blur=7x5
 indicator
 indicator-radius=150
 indicator-thickness=6
-inside-color=232323cc
-inside-clear-color=232323cc
-inside-ver-color=232323cc
-inside-wrong-color=232323cc
-key-hl-color=d2813dff
+inside-color=24273A
+inside-clear-color=24273A
+inside-ver-color=24273A
+inside-wrong-color=24273A
+key-hl-color=A6DA95
 bs-hl-color=a2a8ba55
 separator-color=312e30ee
 ring-color=312e30ee
