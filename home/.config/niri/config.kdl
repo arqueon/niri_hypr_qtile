@@ -121,7 +121,7 @@ workspace "media" {
 }
 
 /-output "HDMI-A-1" {
-    off
+    // off
     mode "1920x1080@60.000"
     scale 1.0
     // for portrait mode
