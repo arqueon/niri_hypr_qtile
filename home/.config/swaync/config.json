@@ -9,6 +9,7 @@
   "control-center-margin-right": 0,
   "control-center-margin-left": 0,
   "notification-icon-size": 100,
+  "notification-2fa-action": true,
   "notification-body-image-height": 200,
   "notification-body-image-width": 300,
   "timeout": 15,
