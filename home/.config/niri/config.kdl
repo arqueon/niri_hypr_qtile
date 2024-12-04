@@ -428,8 +428,8 @@ binds {
     Mod+D { spawn "fuzzel"; }
     Mod+Return { spawn "alacritty"; }
     Mod+Space { spawn "anyrun"; }
-    Ctrl+Alt+Escape { spawn "~/.config/niri/swaylock.sh"; }
-    Mod+L { spawn "~/.config/niri/swaylock.sh"; }
+    Ctrl+Alt+Escape { spawn "swaylock"; }
+    Mod+L { spawn "swaylock"; }
     Mod+X { spawn "nwg-bar"; }
     Mod+Z { spawn "pkill" "xwayland-satellite" "&&" "xwayland-satellite"; }
     //Mod+O { spawn "firedragon"; }
