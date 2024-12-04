@@ -159,10 +159,12 @@
         ""
       ]
     },
-    "on-click": "wpctl set-mute @DEFAULT_AUDIO_SINK@ toggle",
+    "on-click": "swayosd-client --output-volume mute-toggle",
     "on-click-middle": "pavucontrol",
     "tooltip": false,
-    "scroll-step": 5.0
+    "scroll-step": 5.0,
+    "on-scroll-up": "swayosd-client --output-volume raise",
+    "on-scroll-down": "swayosd-client --output-volume lower"
   },
 
   "pulseaudio": {
