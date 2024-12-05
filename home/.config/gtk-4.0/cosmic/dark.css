@@ -1,42 +1,42 @@
 
-@define-color window_bg_color rgba(49, 16, 16, 1.00);
-@define-color window_fg_color rgba(255, 228, 226, 1.00);
+@define-color window_bg_color rgba(36, 39, 58, 1.00);
+@define-color window_fg_color rgba(251, 251, 255, 1.00);
 
-@define-color view_bg_color rgba(64, 30, 29, 1.00);
-@define-color view_fg_color rgba(255, 250, 250, 1.00);
+@define-color view_bg_color rgba(49, 53, 73, 1.00);
+@define-color view_fg_color rgba(196, 200, 226, 1.00);
 
-@define-color headerbar_bg_color rgba(49, 16, 16, 1.00);
-@define-color headerbar_fg_color rgba(255, 228, 226, 1.00);
-@define-color headerbar_border_color_color rgba(90, 59, 58, 1.00);
-@define-color headerbar_backdrop_color rgba(49, 16, 16, 1.00);
+@define-color headerbar_bg_color rgba(36, 39, 58, 1.00);
+@define-color headerbar_fg_color rgba(251, 251, 255, 1.00);
+@define-color headerbar_border_color_color rgba(79, 81, 97, 1.00);
+@define-color headerbar_backdrop_color rgba(36, 39, 58, 1.00);
 
-@define-color sidebar_bg_color rgba(64, 30, 29, 1.00);
-@define-color sidebar_fg_color rgba(255, 250, 250, 1.00);
+@define-color sidebar_bg_color rgba(49, 53, 73, 1.00);
+@define-color sidebar_fg_color rgba(196, 200, 226, 1.00);
 @define-color sidebar_shade_color rgba(0, 0, 0, 0.08);
-@define-color sidebar_backdrop_color rgba(79, 48, 47, 1.00);
+@define-color sidebar_backdrop_color rgba(66, 69, 87, 1.00);
 
-@define-color secondary_sidebar_bg_color rgba(78, 43, 41, 1.00);
-@define-color secondary_sidebar_fg_color rgba(235, 189, 186, 1.00);
+@define-color secondary_sidebar_bg_color rgba(62, 66, 86, 1.00);
+@define-color secondary_sidebar_fg_color rgba(212, 217, 242, 1.00);
 @define-color secondary_sidebar_shade_color rgba(0, 0, 0, 0.08);
-@define-color secondary_sidebar_backdrop_color rgba(92, 60, 59, 1.00);
+@define-color secondary_sidebar_backdrop_color rgba(78, 81, 100, 1.00);
 
-@define-color card_bg_color rgba(73, 38, 37, 1.00);
-@define-color card_fg_color rgba(228, 183, 180, 1.00);
+@define-color card_bg_color rgba(57, 61, 81, 1.00);
+@define-color card_fg_color rgba(205, 210, 236, 1.00);
 
-@define-color thumbnail_bg_color rgba(73, 38, 37, 1.00);
-@define-color thumbnail_fg_color rgba(228, 183, 180, 1.00);
+@define-color thumbnail_bg_color rgba(57, 61, 81, 1.00);
+@define-color thumbnail_fg_color rgba(205, 210, 236, 1.00);
 
-@define-color dialog_bg_color rgba(64, 30, 29, 1.00);
-@define-color dialog_fg_color rgba(255, 250, 250, 1.00);
+@define-color dialog_bg_color rgba(49, 53, 73, 1.00);
+@define-color dialog_fg_color rgba(196, 200, 226, 1.00);
 
-@define-color popover_bg_color rgba(73, 38, 37, 1.00);
-@define-color popover_fg_color rgba(228, 183, 180, 1.00);
+@define-color popover_bg_color rgba(57, 61, 81, 1.00);
+@define-color popover_fg_color rgba(205, 210, 236, 1.00);
 
 @define-color shade_color rgba(0, 0, 0, 0.32);
-@define-color scrollbar_outline_color rgba(49, 16, 16, 0.50);
+@define-color scrollbar_outline_color rgba(36, 39, 58, 0.50);
 
-@define-color accent_color rgba(255, 156, 177, 1.00);
-@define-color accent_bg_color rgba(255, 156, 177, 1.00);
+@define-color accent_color rgba(166, 218, 149, 1.00);
+@define-color accent_bg_color rgba(166, 218, 149, 1.00);
 @define-color accent_fg_color rgba(0, 0, 0, 1.00);
 
 @define-color destructive_color rgba(253, 161, 160, 1.00);
@@ -51,8 +51,8 @@
 @define-color success_bg_color rgba(146, 207, 156, 1.00);
 @define-color success_fg_color rgba(0, 0, 0, 1.00);
 
-@define-color accent_color rgba(255, 156, 177, 1.00);
-@define-color accent_bg_color rgba(255, 156, 177, 1.00);
+@define-color accent_color rgba(166, 218, 149, 1.00);
+@define-color accent_bg_color rgba(166, 218, 149, 1.00);
 @define-color accent_fg_color rgba(0, 0, 0, 1.00);
 
 @define-color error_color rgba(253, 161, 160, 1.00);

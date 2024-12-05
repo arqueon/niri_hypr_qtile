@@ -274,3 +274,203 @@ btop++ needs an interactive shell to run.
 2024/11/24 (13:54:04) | DEBUG: Failed to find Intel GPU sysfs path, Intel GPUs will not be detected
 2024/11/24 (13:54:04) | DEBUG: Shared::init() : Initialized.
 2024/11/24 (13:54:04) | DEBUG: Loading theme file: /home/ruben/.config/btop/themes/catppuccin_macchiato.theme
+
+2024/11/25 (21:08:46) | ===> btop++ v.1.4.0
+2024/11/25 (21:08:46) | INFO: Logger set to DEBUG
+2024/11/25 (21:08:46) | DEBUG: Using locale es_MX.UTF-8
+2024/11/25 (21:08:46) | INFO: Running on /dev/pts/0
+2024/11/25 (21:08:46) | DEBUG: Failed to initialize NVML, NVIDIA GPUs will not be detected: Driver Not Loaded
+2024/11/25 (21:08:46) | INFO: Failed to load librocm_smi64.so, AMD GPUs will not be detected: librocm_smi64.so.6: no se puede abrir el fichero del objeto compartido: No existe el fichero o el directorio
+2024/11/25 (21:08:46) | DEBUG: Failed to find Intel GPU sysfs path, Intel GPUs will not be detected
+2024/11/25 (21:08:46) | DEBUG: Shared::init() : Initialized.
+2024/11/25 (21:08:46) | DEBUG: Loading theme file: /home/ruben/.config/btop/themes/catppuccin_macchiato.theme
+
+2024/11/25 (21:09:39) | ===> btop++ v.1.4.0
+2024/11/25 (21:09:39) | INFO: Logger set to DEBUG
+2024/11/25 (21:09:39) | DEBUG: Using locale es_MX.UTF-8
+2024/11/25 (21:09:39) | INFO: Running on /dev/pts/0
+2024/11/25 (21:09:39) | DEBUG: Failed to initialize NVML, NVIDIA GPUs will not be detected: Driver Not Loaded
+2024/11/25 (21:09:39) | INFO: Failed to load librocm_smi64.so, AMD GPUs will not be detected: librocm_smi64.so.6: no se puede abrir el fichero del objeto compartido: No existe el fichero o el directorio
+2024/11/25 (21:09:39) | DEBUG: Failed to find Intel GPU sysfs path, Intel GPUs will not be detected
+2024/11/25 (21:09:39) | DEBUG: Shared::init() : Initialized.
+2024/11/25 (21:09:39) | DEBUG: Loading theme file: /home/ruben/.config/btop/themes/catppuccin_macchiato.theme
+
+2024/11/26 (08:32:44) | ===> btop++ v.1.4.0
+2024/11/26 (08:32:44) | INFO: Logger set to DEBUG
+2024/11/26 (08:32:44) | DEBUG: Using locale es_MX.UTF-8
+2024/11/26 (08:32:44) | INFO: Running on /dev/pts/0
+2024/11/26 (08:32:44) | DEBUG: Failed to initialize NVML, NVIDIA GPUs will not be detected: Driver Not Loaded
+2024/11/26 (08:32:44) | INFO: Failed to load librocm_smi64.so, AMD GPUs will not be detected: librocm_smi64.so.6: no se puede abrir el fichero del objeto compartido: No existe el fichero o el directorio
+2024/11/26 (08:32:44) | DEBUG: Failed to find Intel GPU sysfs path, Intel GPUs will not be detected
+2024/11/26 (08:32:44) | DEBUG: Shared::init() : Initialized.
+2024/11/26 (08:32:44) | DEBUG: Loading theme file: /home/ruben/.config/btop/themes/catppuccin_macchiato.theme
+
+2024/11/28 (20:49:05) | ===> btop++ v.1.4.0
+2024/11/28 (20:49:05) | INFO: Logger set to DEBUG
+2024/11/28 (20:49:05) | DEBUG: Using locale es_MX.UTF-8
+2024/11/28 (20:49:05) | INFO: Running on /dev/pts/0
+2024/11/28 (20:49:05) | DEBUG: Failed to initialize NVML, NVIDIA GPUs will not be detected: Driver Not Loaded
+2024/11/28 (20:49:05) | INFO: Failed to load librocm_smi64.so, AMD GPUs will not be detected: librocm_smi64.so.6: no se puede abrir el fichero del objeto compartido: No existe el fichero o el directorio
+2024/11/28 (20:49:05) | DEBUG: Failed to find Intel GPU sysfs path, Intel GPUs will not be detected
+2024/11/28 (20:49:05) | DEBUG: Shared::init() : Initialized.
+2024/11/28 (20:49:05) | DEBUG: Loading theme file: /home/ruben/.config/btop/themes/catppuccin_macchiato.theme
+
+2024/11/28 (21:22:11) | ===> btop++ v.1.4.0
+2024/11/28 (21:22:11) | INFO: Logger set to DEBUG
+2024/11/28 (21:22:11) | DEBUG: Using locale es_MX.UTF-8
+2024/11/28 (21:22:11) | INFO: Running on /dev/pts/0
+2024/11/28 (21:22:11) | DEBUG: Failed to initialize NVML, NVIDIA GPUs will not be detected: Driver Not Loaded
+2024/11/28 (21:22:11) | INFO: Failed to load librocm_smi64.so, AMD GPUs will not be detected: librocm_smi64.so.6: no se puede abrir el fichero del objeto compartido: No existe el fichero o el directorio
+2024/11/28 (21:22:11) | DEBUG: Failed to find Intel GPU sysfs path, Intel GPUs will not be detected
+2024/11/28 (21:22:11) | DEBUG: Shared::init() : Initialized.
+2024/11/28 (21:22:11) | DEBUG: Loading theme file: /home/ruben/.config/btop/themes/catppuccin_macchiato.theme
+
+2024/11/29 (19:17:23) | ===> btop++ v.1.4.0
+2024/11/29 (19:17:23) | INFO: Logger set to DEBUG
+2024/11/29 (19:17:23) | DEBUG: Using locale es_MX.UTF-8
+2024/11/29 (19:17:23) | INFO: Running on /dev/pts/1
+2024/11/29 (19:17:23) | DEBUG: Failed to initialize NVML, NVIDIA GPUs will not be detected: Driver Not Loaded
+2024/11/29 (19:17:23) | INFO: Failed to load librocm_smi64.so, AMD GPUs will not be detected: librocm_smi64.so.6: no se puede abrir el fichero del objeto compartido: No existe el fichero o el directorio
+2024/11/29 (19:17:23) | DEBUG: Failed to find Intel GPU sysfs path, Intel GPUs will not be detected
+2024/11/29 (19:17:23) | DEBUG: Shared::init() : Initialized.
+2024/11/29 (19:17:23) | DEBUG: Loading theme file: /home/ruben/.config/btop/themes/catppuccin_macchiato.theme
+
+2024/11/29 (20:51:39) | ===> btop++ v.1.4.0
+2024/11/29 (20:51:39) | INFO: Logger set to DEBUG
+2024/11/29 (20:51:39) | DEBUG: Using locale es_MX.UTF-8
+2024/11/29 (20:51:39) | INFO: Running on /dev/pts/1
+2024/11/29 (20:51:39) | DEBUG: Failed to initialize NVML, NVIDIA GPUs will not be detected: Driver Not Loaded
+2024/11/29 (20:51:39) | INFO: Failed to load librocm_smi64.so, AMD GPUs will not be detected: librocm_smi64.so.6: no se puede abrir el fichero del objeto compartido: No existe el fichero o el directorio
+2024/11/29 (20:51:39) | DEBUG: Failed to find Intel GPU sysfs path, Intel GPUs will not be detected
+2024/11/29 (20:51:39) | DEBUG: Shared::init() : Initialized.
+2024/11/29 (20:51:39) | DEBUG: Loading theme file: /home/ruben/.config/btop/themes/catppuccin_macchiato.theme
+
+2024/11/29 (22:58:54) | ===> btop++ v.1.4.0
+2024/11/29 (22:58:54) | INFO: Logger set to DEBUG
+2024/11/29 (22:58:54) | DEBUG: Using locale es_MX.UTF-8
+2024/11/29 (22:58:54) | ERROR: No tty detected!
+btop++ needs an interactive shell to run.
+2024/11/29 (22:58:54) | INFO: Quitting! Runtime: 00:00:00
+
+2024/11/29 (22:58:59) | ===> btop++ v.1.4.0
+2024/11/29 (22:58:59) | INFO: Logger set to DEBUG
+2024/11/29 (22:58:59) | DEBUG: Using locale es_MX.UTF-8
+2024/11/29 (22:58:59) | INFO: Running on /dev/pts/0
+2024/11/29 (22:58:59) | DEBUG: Failed to initialize NVML, NVIDIA GPUs will not be detected: Driver Not Loaded
+2024/11/29 (22:58:59) | INFO: Failed to load librocm_smi64.so, AMD GPUs will not be detected: librocm_smi64.so.6: no se puede abrir el fichero del objeto compartido: No existe el fichero o el directorio
+2024/11/29 (22:58:59) | DEBUG: Failed to find Intel GPU sysfs path, Intel GPUs will not be detected
+2024/11/29 (22:58:59) | DEBUG: Shared::init() : Initialized.
+2024/11/29 (22:58:59) | DEBUG: Loading theme file: /home/ruben/.config/btop/themes/catppuccin_macchiato.theme
+
+2024/11/29 (23:10:24) | ===> btop++ v.1.4.0
+2024/11/29 (23:10:24) | INFO: Logger set to DEBUG
+2024/11/29 (23:10:24) | DEBUG: Using locale es_MX.UTF-8
+2024/11/29 (23:10:24) | INFO: Running on /dev/pts/0
+2024/11/29 (23:10:24) | DEBUG: Failed to initialize NVML, NVIDIA GPUs will not be detected: Driver Not Loaded
+2024/11/29 (23:10:24) | INFO: Failed to load librocm_smi64.so, AMD GPUs will not be detected: librocm_smi64.so.6: no se puede abrir el fichero del objeto compartido: No existe el fichero o el directorio
+2024/11/29 (23:10:24) | DEBUG: Failed to find Intel GPU sysfs path, Intel GPUs will not be detected
+2024/11/29 (23:10:24) | DEBUG: Shared::init() : Initialized.
+2024/11/29 (23:10:24) | DEBUG: Loading theme file: /home/ruben/.config/btop/themes/catppuccin_macchiato.theme
+
+2024/11/30 (12:55:33) | ===> btop++ v.1.4.0
+2024/11/30 (12:55:33) | INFO: Logger set to DEBUG
+2024/11/30 (12:55:33) | DEBUG: Using locale es_MX.UTF-8
+2024/11/30 (12:55:33) | INFO: Running on /dev/pts/0
+2024/11/30 (12:55:33) | DEBUG: Failed to initialize NVML, NVIDIA GPUs will not be detected: Driver Not Loaded
+2024/11/30 (12:55:33) | INFO: Failed to load librocm_smi64.so, AMD GPUs will not be detected: librocm_smi64.so.6: no se puede abrir el fichero del objeto compartido: No existe el fichero o el directorio
+2024/11/30 (12:55:33) | DEBUG: Failed to find Intel GPU sysfs path, Intel GPUs will not be detected
+2024/11/30 (12:55:33) | DEBUG: Shared::init() : Initialized.
+2024/11/30 (12:55:33) | DEBUG: Loading theme file: /home/ruben/.config/btop/themes/catppuccin_macchiato.theme
+
+2024/11/30 (13:02:39) | ===> btop++ v.1.4.0
+2024/11/30 (13:02:39) | INFO: Logger set to DEBUG
+2024/11/30 (13:02:39) | DEBUG: Using locale es_MX.UTF-8
+2024/11/30 (13:02:39) | INFO: Running on /dev/pts/3
+2024/11/30 (13:02:39) | DEBUG: Failed to initialize NVML, NVIDIA GPUs will not be detected: Driver Not Loaded
+2024/11/30 (13:02:39) | INFO: Failed to load librocm_smi64.so, AMD GPUs will not be detected: librocm_smi64.so.6: no se puede abrir el fichero del objeto compartido: No existe el fichero o el directorio
+2024/11/30 (13:02:39) | DEBUG: Failed to find Intel GPU sysfs path, Intel GPUs will not be detected
+2024/11/30 (13:02:39) | DEBUG: Shared::init() : Initialized.
+2024/11/30 (13:02:39) | DEBUG: Loading theme file: /home/ruben/.config/btop/themes/catppuccin_macchiato.theme
+
+2024/11/30 (13:12:50) | ===> btop++ v.1.4.0
+2024/11/30 (13:12:50) | INFO: Logger set to DEBUG
+2024/11/30 (13:12:50) | DEBUG: Using locale es_MX.UTF-8
+2024/11/30 (13:12:50) | INFO: Running on /dev/pts/0
+2024/11/30 (13:12:50) | DEBUG: Failed to initialize NVML, NVIDIA GPUs will not be detected: Driver Not Loaded
+2024/11/30 (13:12:50) | INFO: Failed to load librocm_smi64.so, AMD GPUs will not be detected: librocm_smi64.so.6: no se puede abrir el fichero del objeto compartido: No existe el fichero o el directorio
+2024/11/30 (13:12:50) | DEBUG: Failed to find Intel GPU sysfs path, Intel GPUs will not be detected
+2024/11/30 (13:12:50) | DEBUG: Shared::init() : Initialized.
+2024/11/30 (13:12:50) | DEBUG: Loading theme file: /home/ruben/.config/btop/themes/catppuccin_macchiato.theme
+
+2024/11/30 (13:14:08) | ===> btop++ v.1.4.0
+2024/11/30 (13:14:08) | INFO: Logger set to DEBUG
+2024/11/30 (13:14:08) | DEBUG: Using locale es_MX.UTF-8
+2024/11/30 (13:14:08) | INFO: Running on /dev/pts/1
+2024/11/30 (13:14:08) | DEBUG: Failed to initialize NVML, NVIDIA GPUs will not be detected: Driver Not Loaded
+2024/11/30 (13:14:08) | INFO: Failed to load librocm_smi64.so, AMD GPUs will not be detected: librocm_smi64.so.6: no se puede abrir el fichero del objeto compartido: No existe el fichero o el directorio
+2024/11/30 (13:14:08) | DEBUG: Failed to find Intel GPU sysfs path, Intel GPUs will not be detected
+2024/11/30 (13:14:08) | DEBUG: Shared::init() : Initialized.
+2024/11/30 (13:14:08) | DEBUG: Loading theme file: /home/ruben/.config/btop/themes/catppuccin_macchiato.theme
+2024/11/30 (13:14:35) | INFO: Quitting! Runtime: 00:00:27
+
+2024/11/30 (13:15:23) | ===> btop++ v.1.4.0
+2024/11/30 (13:15:23) | INFO: Logger set to DEBUG
+2024/11/30 (13:15:23) | DEBUG: Using locale es_MX.UTF-8
+2024/11/30 (13:15:23) | INFO: Running on /dev/pts/1
+2024/11/30 (13:15:23) | DEBUG: Failed to initialize NVML, NVIDIA GPUs will not be detected: Driver Not Loaded
+2024/11/30 (13:15:23) | INFO: Failed to load librocm_smi64.so, AMD GPUs will not be detected: librocm_smi64.so.6: no se puede abrir el fichero del objeto compartido: No existe el fichero o el directorio
+2024/11/30 (13:15:23) | DEBUG: Failed to find Intel GPU sysfs path, Intel GPUs will not be detected
+2024/11/30 (13:15:23) | DEBUG: Shared::init() : Initialized.
+2024/11/30 (13:15:23) | DEBUG: Loading theme file: /home/ruben/.config/btop/themes/catppuccin_macchiato.theme
+2024/11/30 (13:15:38) | INFO: Quitting! Runtime: 00:00:15
+
+2024/11/30 (13:20:30) | ===> btop++ v.1.4.0
+2024/11/30 (13:20:30) | INFO: Logger set to DEBUG
+2024/11/30 (13:20:30) | DEBUG: Using locale es_MX.UTF-8
+2024/11/30 (13:20:30) | INFO: Running on /dev/pts/1
+2024/11/30 (13:20:30) | DEBUG: Failed to initialize NVML, NVIDIA GPUs will not be detected: Driver Not Loaded
+2024/11/30 (13:20:30) | INFO: Failed to load librocm_smi64.so, AMD GPUs will not be detected: librocm_smi64.so.6: no se puede abrir el fichero del objeto compartido: No existe el fichero o el directorio
+2024/11/30 (13:20:30) | DEBUG: Failed to find Intel GPU sysfs path, Intel GPUs will not be detected
+2024/11/30 (13:20:30) | DEBUG: Shared::init() : Initialized.
+2024/11/30 (13:20:30) | DEBUG: Loading theme file: /home/ruben/.config/btop/themes/catppuccin_macchiato.theme
+2024/11/30 (13:20:36) | INFO: Quitting! Runtime: 00:00:06
+
+2024/11/30 (16:54:42) | ===> btop++ v.1.4.0
+2024/11/30 (16:54:42) | INFO: Logger set to DEBUG
+2024/11/30 (16:54:42) | DEBUG: Using locale es_MX.UTF-8
+2024/11/30 (16:54:42) | INFO: Running on /dev/pts/1
+2024/11/30 (16:54:42) | DEBUG: Failed to initialize NVML, NVIDIA GPUs will not be detected: Driver Not Loaded
+2024/11/30 (16:54:42) | INFO: Failed to load librocm_smi64.so, AMD GPUs will not be detected: librocm_smi64.so.6: no se puede abrir el fichero del objeto compartido: No existe el fichero o el directorio
+2024/11/30 (16:54:42) | DEBUG: Failed to find Intel GPU sysfs path, Intel GPUs will not be detected
+2024/11/30 (16:54:42) | DEBUG: Shared::init() : Initialized.
+2024/11/30 (16:54:42) | DEBUG: Loading theme file: /home/ruben/.config/btop/themes/catppuccin_macchiato.theme
+
+2024/12/01 (23:55:20) | ===> btop++ v.1.4.0
+2024/12/01 (23:55:20) | INFO: Logger set to DEBUG
+2024/12/01 (23:55:20) | DEBUG: Using locale es_MX.UTF-8
+2024/12/01 (23:55:20) | INFO: Running on /dev/pts/1
+2024/12/01 (23:55:20) | DEBUG: Failed to initialize NVML, NVIDIA GPUs will not be detected: Driver Not Loaded
+2024/12/01 (23:55:20) | INFO: Failed to load librocm_smi64.so, AMD GPUs will not be detected: librocm_smi64.so.6: no se puede abrir el fichero del objeto compartido: No existe el fichero o el directorio
+2024/12/01 (23:55:20) | DEBUG: Failed to find Intel GPU sysfs path, Intel GPUs will not be detected
+2024/12/01 (23:55:20) | DEBUG: Shared::init() : Initialized.
+2024/12/01 (23:55:20) | DEBUG: Loading theme file: /home/ruben/.config/btop/themes/catppuccin_macchiato.theme
+
+2024/12/02 (13:45:06) | ===> btop++ v.1.4.0
+2024/12/02 (13:45:06) | INFO: Logger set to DEBUG
+2024/12/02 (13:45:06) | DEBUG: Using locale es_MX.UTF-8
+2024/12/02 (13:45:06) | INFO: Running on /dev/pts/1
+2024/12/02 (13:45:06) | DEBUG: Failed to initialize NVML, NVIDIA GPUs will not be detected: Driver Not Loaded
+2024/12/02 (13:45:06) | INFO: Failed to load librocm_smi64.so, AMD GPUs will not be detected: librocm_smi64.so.6: no se puede abrir el fichero del objeto compartido: No existe el fichero o el directorio
+2024/12/02 (13:45:06) | DEBUG: Failed to find Intel GPU sysfs path, Intel GPUs will not be detected
+2024/12/02 (13:45:06) | DEBUG: Shared::init() : Initialized.
+2024/12/02 (13:45:06) | DEBUG: Loading theme file: /home/ruben/.config/btop/themes/catppuccin_macchiato.theme
+
+2024/12/03 (18:08:11) | ===> btop++ v.1.4.0
+2024/12/03 (18:08:11) | INFO: Logger set to DEBUG
+2024/12/03 (18:08:11) | DEBUG: Using locale es_MX.UTF-8
+2024/12/03 (18:08:11) | INFO: Running on /dev/pts/0
+2024/12/03 (18:08:11) | DEBUG: Failed to initialize NVML, NVIDIA GPUs will not be detected: Driver Not Loaded
+2024/12/03 (18:08:11) | INFO: Failed to load librocm_smi64.so, AMD GPUs will not be detected: librocm_smi64.so.6: no se puede abrir el fichero del objeto compartido: No existe el fichero o el directorio
+2024/12/03 (18:08:11) | DEBUG: Failed to find Intel GPU sysfs path, Intel GPUs will not be detected
+2024/12/03 (18:08:11) | DEBUG: Shared::init() : Initialized.
+2024/12/03 (18:08:11) | DEBUG: Loading theme file: /home/ruben/.config/btop/themes/catppuccin_macchiato.theme
