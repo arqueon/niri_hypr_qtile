@@ -64,7 +64,7 @@ workspace "term" {
     open-on-output "DP-2"
 }
 workspace "virt" {
-    open-on-output "HDMI-A-1"
+    open-on-output "DP-2"
 }
 workspace "files" {
     open-on-output "DP-2"
@@ -264,7 +264,7 @@ layout {
 
 spawn-at-startup "swww-daemon"
 spawn-at-startup "swww" "img" "~/wallpapers/default.jpg"
-//spawn-at-startup "niri" "msg" "action" "focus-workspace" "2"
+spawn-at-startup "niri" "msg" "action" "focus-workspace" "web"
 spawn-at-startup "~/.config/niri/waybar.sh"
 spawn-at-startup "foot" "--server"
 spawn-at-startup "~/.config/hypr/scripts/startup.sh"
@@ -291,7 +291,6 @@ screenshot-path "~/Imágenes/Screenshots/Screenshot from %Y-%m-%d %H-%M-%S.png"
 // screenshot-path null
 
 // Animations configuration
-// Animation settings.
 // The wiki explains how to configure individual animations:
 // https://github.com/YaLTeR/niri/wiki/Configuration:-Animations
 animations {
@@ -391,22 +390,71 @@ window-rule {
 }
 
 window-rule {
-    match app-id="Ferdium"
+    match app-id=r#"[Ff]erdium"#
     open-on-workspace "chat"
     open-maximized true
 }
 
 window-rule {
-    match app-id="Zotero"
-    open-on-workspace "ref"
+    match app-id="Zotero" 
     open-maximized true
+    exclude title=r#"Progreso"#
+    exclude title=r#"Plugins Manager"#
+    exclude title="Ajuste de Zotero"
+    exclude title="Crear elemento contenedor"
+    open-on-workspace "ref"
 }
 
 window-rule {
     match app-id="Zettlr"
+    match app-id=r#"libreoffice"#
+    match app-id=r#"soffice"#
     open-on-workspace "write"
     open-maximized true
 }
+
+window-rule {
+    match app-id="virt-manager" title="Gestor de máquinas virtuales"
+    default-column-width { proportion 0.25; }
+    open-on-workspace "virt"
+}
+
+window-rule {
+    match app-id="virt-manager" title=r#"QEMU/KVM$"#
+    default-column-width { proportion 0.8; }
+    open-on-workspace "virt"
+}
+
+window-rule {
+    match app-id="doublecmd" title=r#"Double Commander"#
+    default-column-width { proportion 0.6; }
+}
+
+window-rule {
+    match app-id="doublecmd" title=r#"Copiar archivo"#
+    default-column-width { proportion 0.3333; }
+}
+
+window-rule {
+    match app-id=r#"jdownloader"#
+    match app-id=r#"qbittorrent"#
+    default-column-width { proportion 0.3; }
+    open-on-workspace "files"
+}
+
+window-rule {
+    match app-id="Alacritty"
+    match app-id="kitty"
+    default-column-width { proportion 0.4; }
+    opacity 0.8
+}
+
+window-rule {
+    match is-active=false
+    opacity 0.9
+}
+
+
 
 // Keybindings
 binds {
