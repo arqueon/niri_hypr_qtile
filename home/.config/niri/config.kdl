@@ -60,13 +60,13 @@ workspace "notes" {
 workspace "write" {
     open-on-output "HDMI-A-1"
 }
-workspace "term" {
-    open-on-output "DP-2"
-}
 workspace "virt" {
     open-on-output "DP-2"
 }
 workspace "files" {
+    open-on-output "DP-2"
+}
+workspace "term" {
     open-on-output "DP-2"
 }
 workspace "media" {
