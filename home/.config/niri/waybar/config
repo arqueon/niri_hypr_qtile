@@ -176,7 +176,7 @@
     "on-click": "wpctl set-mute @DEFAULT_AUDIO_SOURCE@ toggle"
   },
   "bluetooth": {
-    "on-click": "~/.config/waybar/scripts/rofi-bluetooth &",
+    "on-click": "blueman",
     "format": " {status}"
   },
 

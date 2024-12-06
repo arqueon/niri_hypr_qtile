@@ -200,7 +200,7 @@ layout {
         // off
 
         // How many logical pixels the ring extends out from the windows.
-        width 2
+        width 3
 
         // Colors can be set in a variety of ways:
         // - CSS named colors: "red"
@@ -208,7 +208,7 @@ layout {
         // - CSS-like notation: "rgb(255, 127, 0)", rgba(), hsl() and a few others.
 
         // Color of the ring on the active monitor.
-        active-color "#a6da95"
+        // active-color "#a6da95"
 
         // Color of the ring on inactive monitors.
         inactive-color "#505050"
@@ -219,13 +219,13 @@ layout {
         // defaulting to 180 (top-to-bottom gradient).
         // You can use any CSS linear-gradient tool on the web to set these up.
         //
-        // active-gradient from="#80c8ff" to="#bbddff" angle=45
+        active-gradient from="#6b8c61" to="#a6da95" angle=45
 
         // You can also color the gradient relative to the entire view
         // of the workspace, rather than relative to just the window itself.
         // To do that, set relative-to="workspace-view".
         //
-        // inactive-gradient from="#505050" to="#808080" angle=45 relative-to="workspace-view"
+        inactive-gradient from="#505050" to="#808080" angle=45 relative-to="workspace-view"
     }
 
     // You can also add a border. It's similar to the focus ring, but always visible.
@@ -234,7 +234,7 @@ layout {
         // If you enable the border, you probably want to disable the focus ring.
         off
 
-        width 2
+        width 3
         active-color "#a6da95"
         inactive-color "#505050"
 
@@ -397,11 +397,7 @@ window-rule {
 
 window-rule {
     match app-id="Zotero" 
-    open-maximized true
-    exclude title=r#"Progreso"#
-    exclude title=r#"Plugins Manager"#
-    exclude title="Ajuste de Zotero"
-    exclude title="Crear elemento contenedor"
+    //open-maximized true
     open-on-workspace "ref"
 }
 
@@ -427,6 +423,7 @@ window-rule {
 
 window-rule {
     match app-id="doublecmd" title=r#"Double Commander"#
+    match app-id="google-chrome"
     default-column-width { proportion 0.6; }
 }
 
@@ -445,8 +442,9 @@ window-rule {
 window-rule {
     match app-id="Alacritty"
     match app-id="kitty"
+    match app-id="sublime_text"
+    match app-id="thunar"
     default-column-width { proportion 0.4; }
-    opacity 0.8
 }
 
 window-rule {
@@ -454,7 +452,11 @@ window-rule {
     opacity 0.9
 }
 
-
+window-rule {
+    match app-id="YouTube Music"
+    default-column-width { proportion 0.7; }
+    open-on-workspace "media"
+}
 
 // Keybindings
 binds {
