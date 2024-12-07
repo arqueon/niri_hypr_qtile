@@ -27,14 +27,14 @@ input {
         // dwt
         // dwtp
         // natural-scroll
-        accel-speed 1.0
-        accel-profile "flat"
+        accel-speed 0.2
+        accel-profile "adaptive"
     }
 
     mouse {
         // natural-scroll
-        // accel-speed 0.2
-        // accel-profile "flat"
+        accel-speed 0.2
+        accel-profile "adaptive"
     }
 
     // Uncomment this to make the mouse warp to the center of newly focused windows.
@@ -422,14 +422,20 @@ window-rule {
 }
 
 window-rule {
-    match app-id="doublecmd" title=r#"Double Commander"#
     match app-id="google-chrome"
     default-column-width { proportion 0.6; }
 }
 
 window-rule {
+    match app-id="doublecmd" title=r#"Double Commander"#
+    default-column-width { proportion 0.6; }
+    open-on-workspace "files"
+}
+
+window-rule {
     match app-id="doublecmd" title=r#"Copiar archivo"#
     default-column-width { proportion 0.3333; }
+    open-on-workspace "files"
 }
 
 window-rule {
