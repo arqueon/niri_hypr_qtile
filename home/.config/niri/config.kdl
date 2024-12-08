@@ -505,7 +505,8 @@ binds {
     Mod+F10 { spawn "youtube-music"; }
     Mod+F11 { spawn "github-desktop"; }
     Mod+F12 { spawn "wldash"; }
-    Mod+Shift+C { spawn "swaync-client" "-t" "-sw"; }
+    Mod+Shift+C { spawn "farge" "--notify" "--no-preview"; }
+    Mod+Shift+N { spawn "swaync-client" "-t" "-sw"; }
     Mod+Shift+W { spawn "~/.config/niri/waybar.sh"; }
     Mod+M { spawn "mpv" "/dev/video2"; }
 
