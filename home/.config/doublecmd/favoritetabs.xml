@@ -801,49 +801,7 @@
     </GUID115869F7-25CE-492D-B632-5241EAD95A7E>
     <GUID0A3B046F-3E4F-4012-833F-D31DABB910A1>
       <Left>
-        <ActiveTab>3</ActiveTab>
-        <Tab>
-          <FileView Type="columns">
-            <Sortings>
-              <Sorting>
-                <Direction>1</Direction>
-                <Function>12</Function>
-              </Sorting>
-            </Sortings>
-            <History>
-              <Entry Active="True">
-                <FileSource Type="FileSystem"/>
-                <Paths>
-                  <Path>/media/insync/DATA/arqueon-conf/</Path>
-                </Paths>
-              </Entry>
-            </History>
-            <ColumnsView>
-              <ColumnsSet>Default</ColumnsSet>
-            </ColumnsView>
-          </FileView>
-        </Tab>
-        <Tab>
-          <FileView Type="columns">
-            <Sortings>
-              <Sorting>
-                <Direction>1</Direction>
-                <Function>12</Function>
-              </Sorting>
-            </Sortings>
-            <History>
-              <Entry Active="True">
-                <FileSource Type="FileSystem"/>
-                <Paths>
-                  <Path>/media/insync/DATA/</Path>
-                </Paths>
-              </Entry>
-            </History>
-            <ColumnsView>
-              <ColumnsSet>Default</ColumnsSet>
-            </ColumnsView>
-          </FileView>
-        </Tab>
+        <ActiveTab>2</ActiveTab>
         <Tab>
           <FileView Type="columns">
             <Sortings>
@@ -857,6 +815,27 @@
                 <FileSource Type="FileSystem"/>
                 <Paths>
                   <Path>/media/insync/DATA/arqueon-conf/home/</Path>
+                </Paths>
+              </Entry>
+            </History>
+            <ColumnsView>
+              <ColumnsSet>Default</ColumnsSet>
+            </ColumnsView>
+          </FileView>
+        </Tab>
+        <Tab>
+          <FileView Type="columns">
+            <Sortings>
+              <Sorting>
+                <Direction>1</Direction>
+                <Function>12</Function>
+              </Sorting>
+            </Sortings>
+            <History>
+              <Entry Active="True">
+                <FileSource Type="FileSystem"/>
+                <Paths>
+                  <Path>/media/insync/DATA/arqueon-conf/</Path>
                 </Paths>
               </Entry>
             </History>
@@ -901,7 +880,7 @@
               <Entry Active="True">
                 <FileSource Type="FileSystem"/>
                 <Paths>
-                  <Path>/home/ruben/DATA/</Path>
+                  <Path>/home/ruben/</Path>
                 </Paths>
               </Entry>
             </History>
@@ -922,7 +901,7 @@
               <Entry Active="True">
                 <FileSource Type="FileSystem"/>
                 <Paths>
-                  <Path>/home/ruben/.config/</Path>
+                  <Path>/home/ruben/DATA/</Path>
                 </Paths>
               </Entry>
             </History>

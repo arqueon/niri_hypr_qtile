@@ -2,10 +2,36 @@
 <doublecmd>
   <History>
     <Navigation>
-      <Item>/media/insync/DATA/arqueon-conf/home/.config/</Item>
-      <Item>/media/insync/DATA/arqueon-conf/home/</Item>
       <Item>/media/insync/DATA/arqueon-conf/</Item>
+      <Item>/media/insync/DATA/arqueon-conf/home/</Item>
+      <Item>/home/ruben/</Item>
+      <Item>/home/ruben/dotfiles/</Item>
+      <Item>/home/ruben/dotfiles/niri/</Item>
       <Item>/home/ruben/.config/</Item>
+      <Item>/home/ruben/.config/nwg-bar/</Item>
+      <Item>/home/ruben/.config/niri/</Item>
+      <Item>/media/insync/DATA/niri_hypr_qtile/</Item>
+      <Item>/media/insync/DATA/</Item>
+      <Item>/home/ruben/Documentos/</Item>
+      <Item>/media/insync/DATA/niri_hypr_qtile/home/.config/waybar/</Item>
+      <Item>/media/insync/DATA/niri_hypr_qtile/home/.config/</Item>
+      <Item>/media/insync/DATA/niri_hypr_qtile/home/.config/nwg-bar/</Item>
+      <Item>/media/insync/DATA/niri_hypr_qtile/home/</Item>
+      <Item>/home/ruben/.config/nwg-drawer/</Item>
+      <Item>/</Item>
+      <Item>/media/</Item>
+      <Item>/media/insync/</Item>
+      <Item>/home/ruben/.config/swaync/</Item>
+      <Item>/home/ruben/.config/qtile/</Item>
+      <Item>/home/ruben/.config/niri/waybar/</Item>
+      <Item>/home/ruben/.config/niri/modules/</Item>
+      <Item>/home/ruben/.config/niri/waybar/scripts/</Item>
+      <Item>/home/ruben/.config/niri/waybar/scripts/power-menu/</Item>
+      <Item>/home/ruben/.config/niri/waybar/scripts/power-menu/shared/</Item>
+      <Item>/home/ruben/dotfiles/swaync/</Item>
+      <Item>/home/ruben/dotfiles/alacritty/</Item>
+      <Item>/home/ruben/dotfiles/kitty/</Item>
+      <Item>/media/insync/DATA/arqueon-conf/home/.config/</Item>
       <Item>/home/ruben/.config/cosmic/</Item>
       <Item>/media/insync/DATA/arqueon-conf/various/</Item>
       <Item>/media/insync/DATA/arqueon-conf/various/.config_otros/</Item>
@@ -13,14 +39,9 @@
       <Item>/home/ruben/.config/cosmic/com.system76.CosmicSettings.Shortcuts/</Item>
       <Item>/home/ruben/.config/cosmic/com.system76.CosmicSettings.Shortcuts/v1/</Item>
       <Item>/media/insync/DATA/arqueon-conf/various/.config_otros/cosmic/com.system76.CosmicSettings.Shortcuts/</Item>
-      <Item>/home/ruben/</Item>
       <Item>/media/insync/DATA/arqueon-conf/various/.config_otros/cosmic/com.system76.CosmicSettings.Shortcuts/v1/</Item>
       <Item>/home/ruben/.config/waybar/</Item>
       <Item>/home/ruben/.config/swaync/OLD/</Item>
-      <Item>/home/ruben/.config/swaync/</Item>
-      <Item>/media/insync/DATA/niri_hypr_qtile/</Item>
-      <Item>/media/insync/DATA/niri_hypr_qtile/home/</Item>
-      <Item>/media/insync/DATA/niri_hypr_qtile/home/.config/</Item>
       <Item>/media/insync/DATA/niri_hypr_qtile/home/.config/qtile/sxhkd/</Item>
       <Item>/media/insync/DATA/niri_hypr_qtile/home/.config/qtile/</Item>
       <Item>/media/insync/DATA/niri_hypr_qtile/home/.config/hypr/</Item>
@@ -31,27 +52,6 @@
       <Item>/home/</Item>
       <Item>/home/ruben/DATA/</Item>
       <Item>/media/insync/DATA/arqueon-conf/home/wallpaper/</Item>
-      <Item>/home/ruben/wallpaper/</Item>
-      <Item>/media/insync/DATA/niri_hypr_qtile/.git/</Item>
-      <Item>/media/insync/DATA/arqueon-conf/.config/</Item>
-      <Item>/media/insync/DATA/arqueon-conf/.config/qtile/</Item>
-      <Item>/media/insync/DATA/arqueon-conf/.config/qtile/settings/</Item>
-      <Item>/media/insync/DATA/niri_hypr_qtile/.config/</Item>
-      <Item>/media/insync/DATA/arqueon-conf/various/.config/</Item>
-      <Item>/media/insync/DATA/arqueon-conf/.config/autostart/</Item>
-      <Item>/media/insync/DATA/</Item>
-      <Item>/home/ruben/.config/niri/</Item>
-      <Item>/media/insync/DATA/niri_hypr_qtile/.config/niri/</Item>
-      <Item>/media/insync/DATA/niri_hypr_qtile/.config/swaync/</Item>
-      <Item>/media/insync/DATA/niri_hypr_qtile/.config/fusuma/</Item>
-      <Item>/media/insync/DATA/niri_hypr_qtile/.local/</Item>
-      <Item>/media/insync/DATA/niri_hypr_qtile/.local/bin/</Item>
-      <Item>/media/insync/DATA/niri_hypr_qtile/.config/autostart/</Item>
-      <Item>/home/ruben/.config/qtile/</Item>
-      <Item>/home/ruben/.config/hypr/</Item>
-      <Item>/home/ruben/.config/hypr/modules/</Item>
-      <Item>/media/insync/DATA/arqueon-conf/.config/swaync/</Item>
-      <Item>/home/ruben/Descargas/niri-dots/</Item>
     </Navigation>
     <CommandLine/>
     <FileMask>
@@ -59,6 +59,7 @@
     </FileMask>
     <VolumeSize/>
     <CreateDirectories>
+      <Item Tag="0">dotfiles</Item>
       <Item Tag="0">wallpaper</Item>
       <Item Tag="0">home</Item>
       <Item Tag="0">.config</Item>

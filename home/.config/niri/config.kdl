@@ -428,6 +428,7 @@ window-rule {
 
 window-rule {
     match app-id="doublecmd" title=r#"Double Commander"#
+    match app-id=r#"^Github Desktop$"# 
     default-column-width { proportion 0.6; }
     open-on-workspace "files"
 }
