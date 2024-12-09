@@ -21,7 +21,7 @@ This was created in an Arcolinux offline setup vía the [Arconet ISO](https://ww
 
 First, install the required packages:
 
-    yay -S alacritty anyrun-git btop catppuccin-gtk-theme-macchiato copyq curl farge-git fastfetch foot fuzzel git grimblast hypridle hyprland hyprlock hyprpicker kvantum-theme-catppuccin-git lib32-pipewire libnotify niri nmtui nwg-bar nwg-drawer nwg-look papirus-icon-theme papirus-folders-catppuccin-git pipewire playerctl pokemon-colorscripts-git polkit-gnome pyprland qt5ct qt6ct qtile rofi ruby-fusuma swayidle swaylock-effects swaync swayosd-git swww sxhkd thunar variety arconet-variety-config volumectl waybar wldash wl-clipboard wlogout wlsunset wireplumber wlr-protocols wttr wttrbar xwayland-satellite xfce4-appfinder yad 
+    yay -S alacritty anyrun-git btop catppuccin-gtk-theme-macchiato copyq curl farge-git fastfetch foot fuzzel git grimblast hypridle hyprland hyprlock hyprpicker kvantum-theme-catppuccin-git lib32-pipewire libnotify niri nwg-bar nwg-drawer nwg-look papirus-icon-theme papirus-folders-catppuccin-git pipewire playerctl pokemon-colorscripts-git polkit-gnome pyprland qt5ct qt6ct qtile rofi ruby-fusuma swayidle swaylock-effects swaync swayosd-git swww sxhkd thunar variety arconet-variety-config volumectl waybar wldash wl-clipboard wlogout wlsunset wireplumber wlr-protocols wttr wttrbar xwayland-satellite xfce4-appfinder yad 
 
 #### Replace PulseAudio with PipeWire
 
@@ -56,7 +56,7 @@ This configuration utilizes PipeWire for audio management. If you prefer to use 
 
     sudo pacman -S zsh-completions --noconfirm --needed
     sudo pacman -S zsh-autosuggestions --noconfirm --needed
-    sudo  pacman -S zsh-syntax-highlighting --noconfirm --needed
+    sudo pacman -S zsh-syntax-highlighting --noconfirm --needed
     sudo pacman -S oh-my-zsh-git --noconfirm --needed
     chsh -s /bin/zsh
     sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
@@ -588,4 +588,75 @@ From a mix of Qtile (from `config.py`) and `sxhkd` keybinds.
 * This table combines keybinds from both Qtile `config.py` and sxhkd configuration.
 * Some actions are handled by external scripts.
 * You can customize or add more keybinds in your respective configuration files.
+
+## Included software, categorized for clarity.
+
+**Desktop Environment and Window Management:**
+
+* **hyprland:** A dynamic tiling window manager for Wayland, known for its high performance and customization.
+* **hypridle:** An idle inhibitor for Hyprland.
+* **hyprlock:** A screen locker for Hyprland.
+* **hyprpicker:** A color picker tool for Hyprland.
+* **nwg-bar:** A lightweight taskbar for Wayland.
+* **nwg-drawer:** An application launcher for Wayland.
+* **nwg-look:** A tool to configure the appearance of Wayland.
+* **pyprland:** A Python library for interacting with Hyprland.
+* **swayidle:** An idle inhibitor for Sway.
+* **swaylock-effects:** Screen lock effects for Sway.
+* **swaync:** A notification daemon for Sway.
+* **swayosd-git:** An on-screen display for Sway.
+* **wlogout:** A logout menu for Wayland.
+* **wlsunset:** A program to adjust screen color temperature based on the time of day.
+* **xwayland-satellite:** An XWayland server for running X11 applications on Wayland.
+
+**Terminal and Command Line:**
+
+* **alacritty:** A fast and configurable terminal emulator.
+* **anyrun-git:** An application launcher for the command line.
+* **btop:** A system monitor for the terminal.
+* **curl:** A tool for transferring data from or to a server.
+* **farge-git:** A color formatter for terminal output.
+* **fastfetch:** A tool that displays system information in the terminal.
+* **foot:** A minimalist terminal emulator.
+* **fuzzel:** A fuzzy application launcher for the command line.
+* **git:** A distributed version control system.
+* **grimblast:** A clipboard manager for the command line.
+* **niri:** A command-line application launcher.
+* **nmtui:** A text-based user interface for NetworkManager.
+* **sxhkd:** A keybinding daemon for Wayland.
+* **wttr:** A tool for displaying weather in the terminal.
+* **wttrbar:** A tool for displaying weather in the status bar.
+
+**Applications and Utilities:**
+
+* **copyq:** An advanced clipboard manager.
+* **lib32-pipewire:** 32-bit libraries for PipeWire.
+* **libnotify:** A library for displaying desktop notifications.
+* **papirus-icon-theme:** A modern icon theme.
+* **papirus-folders-catppuccin-git:** A folder theme based on Catppuccin.
+* **pipewire:** A multimedia and sound server.
+* **playerctl:** A command-line tool for controlling media players.
+* **pokemon-colorscripts-git:** A set of color scripts for the terminal.
+* **polkit-gnome:** An authentication agent for Polkit.
+* **qtile:** A highly configurable tiling window manager written in Python.
+* **rofi:** An application launcher, window switcher, and dmenu replacement.
+* **ruby-fusuma:** A daemon to use multi-touch trackpads as input devices.
+* **thunar:** A lightweight file manager.
+* **variety:** A wallpaper manager.
+* **arconet-variety-config:** A plugin for Variety that provides images from Arconet.
+* **volumectl:** A volume control for Wayland.
+* **waybar:** A highly configurable status bar for Wayland.
+* **wldash:** A dashboard for Wayland.
+* **wl-clipboard:** A command-line tool for accessing the Wayland clipboard.
+* **wireplumber:** A session manager for PipeWire.
+* **wlr-protocols:** Wayland protocols.
+* **xfce4-appfinder:** An application launcher for Xfce.
+* **yad:** A tool for creating dialog boxes.
+
+**Themes and Appearance:**
+
+* **catppuccin-gtk-theme-macchiato:** A GTK theme based on Catppuccin.
+* **kvantum-theme-catppuccin-git:** A Kvantum theme based on Catppuccin.
+* **qt5ct:** A tool to configure Qt5 theming.
+* **qt6ct:** A tool to configure Qt6 theming.
 
