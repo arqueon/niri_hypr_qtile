@@ -21,7 +21,7 @@ This was created in an Arcolinux offline setup vía the [Arconet ISO](https://ww
 
 First, install the required packages:
 
-    yay -S alacritty anyrun-git btop catppuccin-gtk-theme-macchiato copyq curl farge-git fastfetch foot fuzzel git grimblast hypridle hyprland hyprlock hyprpicker kvantum-theme-catppuccin-git lib32-pipewire libnotify niri nmtui nwg-bar nwg-drawer nwg-look papirus-icon-theme papirus-folders-catppuccin-git pipewire playerctl pokemon-colorscripts-git polkit-gnome pyprland qt5ct qt6ct qtile rofi ruby-fusuma swayidle swaylock-effects swaync swayosd-git swww sxhkd thunar variety arconet-variety-config volumectl waybar wldash wl-clipboard wlogout wlsunset wireplumber wl- clipboard wlr-protocols wttr wttrbar xwayland-satellite xfce4-appfinder yad 
+    yay -S alacritty anyrun-git btop catppuccin-gtk-theme-macchiato copyq curl farge-git fastfetch foot fuzzel git grimblast hypridle hyprland hyprlock hyprpicker kvantum-theme-catppuccin-git lib32-pipewire libnotify niri nmtui nwg-bar nwg-drawer nwg-look papirus-icon-theme papirus-folders-catppuccin-git pipewire playerctl pokemon-colorscripts-git polkit-gnome pyprland qt5ct qt6ct qtile rofi ruby-fusuma swayidle swaylock-effects swaync swayosd-git swww sxhkd thunar variety arconet-variety-config volumectl waybar wldash wl-clipboard wlogout wlsunset wireplumber wlr-protocols wttr wttrbar xwayland-satellite xfce4-appfinder yad 
 
 #### Replace PulseAudio with PipeWire
 
@@ -44,21 +44,20 @@ This configuration utilizes PipeWire for audio management. If you prefer to use 
 
 ##### Install fonts
 
-    pacman -S awesome-terminal-fonts --noconfirm --needed
-    pacman -S nerd-fonts-source-code-pro --noconfirm --needed
-    noto-fonts is already installed - nothing to do
-    pacman -S ttf-iosevka-nerd --noconfirm --needed
-    pacman -S ttf-jetbrains-mono --noconfirm --needed
-    pacman -S ttf-nerd-fonts-symbols --noconfirm --needed
-    pacman -S ttf-nerd-fonts-symbols-mono --noconfirm --needed
+    sudo pacman -S awesome-terminal-fonts --noconfirm --needed
+    sudo pacman -S nerd-fonts-source-code-pro --noconfirm --needed
+    sudo pacman -S ttf-iosevka-nerd --noconfirm --needed
+    sudo pacman -S ttf-jetbrains-mono --noconfirm --needed
+    sudo pacman -S ttf-nerd-fonts-symbols --noconfirm --needed
+    sudo pacman -S ttf-nerd-fonts-symbols-mono --noconfirm --needed
     yay -S --noconfirm ttf-meslo-nerd-font-powerlevel10k
 
 ##### Install and configure `zsh` 
 
-    pacman -S zsh-completions --noconfirm --needed
-    pacman -S zsh-autosuggestions --noconfirm --needed
-    pacman -S zsh-syntax-highlighting --noconfirm --needed
-    pacman -S oh-my-zsh-git --noconfirm --needed
+    sudo pacman -S zsh-completions --noconfirm --needed
+    sudo pacman -S zsh-autosuggestions --noconfirm --needed
+    sudo  pacman -S zsh-syntax-highlighting --noconfirm --needed
+    sudo pacman -S oh-my-zsh-git --noconfirm --needed
     chsh -s /bin/zsh
     sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
     yay -S --noconfirm zsh-theme-powerlevel10k-git
