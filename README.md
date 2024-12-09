@@ -616,14 +616,13 @@ From a mix of Qtile (from `config.py`) and `sxhkd` keybinds.
 * **alacritty:** A fast and configurable terminal emulator.
 * **anyrun-git:** An application launcher for the command line.
 * **btop:** A system monitor for the terminal.
-* **curl:** A tool for transferring data from or to a server.
-* **farge-git:** A color formatter for terminal output.
+* **farge-git:** A color picker for terminal output.
 * **fastfetch:** A tool that displays system information in the terminal.
 * **foot:** A minimalist terminal emulator.
-* **fuzzel:** A fuzzy application launcher for the command line.
+* **fuzzel:** An application launcher for the command line.
 * **git:** A distributed version control system.
-* **grimblast:** A clipboard manager for the command line.
-* **sxhkd:** A keybinding daemon for Wayland.
+* **grimblast:** A screenshot utility for the command line.
+* **sxhkd:** A keybinding daemon.
 * **wttr:** A tool for displaying weather in the terminal.
 * **wttrbar:** A tool for displaying weather in the status bar.
 
