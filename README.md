@@ -593,6 +593,8 @@ From a mix of Qtile (from `config.py`) and `sxhkd` keybinds.
 
 **Desktop Environment and Window Management:**
 
+* **niri:** A wayland compositor based on PaperWM.
+* **qtile:** A highly configurable tiling window manager written in Python.
 * **hyprland:** A dynamic tiling window manager for Wayland, known for its high performance and customization.
 * **hypridle:** An idle inhibitor for Hyprland.
 * **hyprlock:** A screen locker for Hyprland.
@@ -621,8 +623,6 @@ From a mix of Qtile (from `config.py`) and `sxhkd` keybinds.
 * **fuzzel:** A fuzzy application launcher for the command line.
 * **git:** A distributed version control system.
 * **grimblast:** A clipboard manager for the command line.
-* **niri:** A command-line application launcher.
-* **nmtui:** A text-based user interface for NetworkManager.
 * **sxhkd:** A keybinding daemon for Wayland.
 * **wttr:** A tool for displaying weather in the terminal.
 * **wttrbar:** A tool for displaying weather in the status bar.
@@ -638,7 +638,6 @@ From a mix of Qtile (from `config.py`) and `sxhkd` keybinds.
 * **playerctl:** A command-line tool for controlling media players.
 * **pokemon-colorscripts-git:** A set of color scripts for the terminal.
 * **polkit-gnome:** An authentication agent for Polkit.
-* **qtile:** A highly configurable tiling window manager written in Python.
 * **rofi:** An application launcher, window switcher, and dmenu replacement.
 * **ruby-fusuma:** A daemon to use multi-touch trackpads as input devices.
 * **thunar:** A lightweight file manager.
