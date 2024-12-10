@@ -410,7 +410,7 @@ window-rule {
 }
 
 window-rule {
-    match app-id="virt-manager" title="Gestor de máquinas virtuales"
+    match app-id="virt-manager" title="Virtual Machine Manager"
     default-column-width { proportion 0.25; }
     open-on-workspace "virt"
 }
@@ -725,7 +725,7 @@ hotkey-overlay {
 
 // Environment variables
 environment {
-    DISPLAY ":1"
+    DISPLAY ":0"
     QT_QPA_PLATFORM "wayland"
     QT_QPA_PLATFORMTHEME "qt6ct"
     XDG_SESSION_TYPE "wayland"

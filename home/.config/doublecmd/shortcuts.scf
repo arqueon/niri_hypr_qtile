@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<doublecmd DCVersion="1.1.11 beta">
+<doublecmd DCVersion="1.1.21 gamma">
   <Hotkeys Version="63">
     <Form Name="Main">
+      <Hotkey>
+        <Shortcut>F1</Shortcut>
+        <Command>cm_HelpIndex</Command>
+      </Hotkey>
       <Hotkey>
         <Shortcut>F2</Shortcut>
         <Command>cm_RenameOnly</Command>
@@ -9,6 +13,15 @@
       <Hotkey>
         <Shortcut>Shift+F6</Shortcut>
         <Command>cm_RenameOnly</Command>
+      </Hotkey>
+      <Hotkey>
+        <Shortcut>F3</Shortcut>
+        <Command>cm_View</Command>
+      </Hotkey>
+      <Hotkey>
+        <Shortcut>Shift+F3</Shortcut>
+        <Command>cm_View</Command>
+        <Param>cursor=1</Param>
       </Hotkey>
       <Hotkey>
         <Shortcut>F4</Shortcut>
@@ -148,6 +161,10 @@
         <Command>cm_ShellExecute</Command>
       </Hotkey>
       <Hotkey>
+        <Shortcut>Ctrl+Shift+A</Shortcut>
+        <Command>cm_ShowTabsList</Command>
+      </Hotkey>
+      <Hotkey>
         <Shortcut>Ctrl+Shift+B</Shortcut>
         <Command>cm_FlatViewSel</Command>
       </Hotkey>
@@ -276,11 +293,11 @@
         <Command>cm_ViewHistoryNext</Command>
       </Hotkey>
       <Hotkey>
-        <Shortcut>Shift+Alt+Enter</Shortcut>
+        <Shortcut>Alt+Shift+Enter</Shortcut>
         <Command>cm_CountDirContent</Command>
       </Hotkey>
       <Hotkey>
-        <Shortcut>Shift+Alt+F9</Shortcut>
+        <Shortcut>Alt+Shift+F9</Shortcut>
         <Command>cm_TestArchive</Command>
       </Hotkey>
       <Hotkey>
@@ -528,6 +545,10 @@
         <Command>cm_ShowAsHex</Command>
       </Hotkey>
       <Hotkey>
+        <Shortcut>4</Shortcut>
+        <Command>cm_ShowAsDec</Command>
+      </Hotkey>
+      <Hotkey>
         <Shortcut>5</Shortcut>
         <Command>cm_ShowAsBook</Command>
       </Hotkey>
@@ -538,6 +559,30 @@
       <Hotkey>
         <Shortcut>7</Shortcut>
         <Command>cm_ShowPlugins</Command>
+      </Hotkey>
+      <Hotkey>
+        <Shortcut>8</Shortcut>
+        <Command>cm_ShowOffice</Command>
+      </Hotkey>
+      <Hotkey>
+        <Shortcut>9</Shortcut>
+        <Command>cm_ShowCode</Command>
+      </Hotkey>
+      <Hotkey>
+        <Shortcut>C</Shortcut>
+        <Command>cm_ImageCenter</Command>
+      </Hotkey>
+      <Hotkey>
+        <Shortcut>F</Shortcut>
+        <Command>cm_StretchImage</Command>
+      </Hotkey>
+      <Hotkey>
+        <Shortcut>L</Shortcut>
+        <Command>cm_StretchOnlyLarge</Command>
+      </Hotkey>
+      <Hotkey>
+        <Shortcut>W</Shortcut>
+        <Command>cm_WrapText</Command>
       </Hotkey>
       <Hotkey>
         <Shortcut>F6</Shortcut>
@@ -588,12 +633,20 @@
         <Command>cm_Print</Command>
       </Hotkey>
       <Hotkey>
+        <Shortcut>Ctrl+G</Shortcut>
+        <Command>cm_GotoLine</Command>
+      </Hotkey>
+      <Hotkey>
         <Shortcut>Ctrl+A</Shortcut>
         <Command>cm_SelectAll</Command>
       </Hotkey>
       <Hotkey>
         <Shortcut>Ctrl+C</Shortcut>
         <Command>cm_CopyToClipboard</Command>
+      </Hotkey>
+      <Hotkey>
+        <Shortcut>Ctrl+Z</Shortcut>
+        <Command>cm_Undo</Command>
       </Hotkey>
       <Hotkey>
         <Shortcut>A</Shortcut>
@@ -615,47 +668,31 @@
         <Command>cm_ChangeEncoding</Command>
         <Param>UTF-16LE</Param>
       </Hotkey>
-      <Hotkey>
-        <Shortcut>4</Shortcut>
-        <Command>cm_ShowAsDec</Command>
-      </Hotkey>
-      <Hotkey>
-        <Shortcut>8</Shortcut>
-        <Command>cm_ShowOffice</Command>
-      </Hotkey>
-      <Hotkey>
-        <Shortcut>9</Shortcut>
-        <Command>cm_ShowCode</Command>
-      </Hotkey>
-      <Hotkey>
-        <Shortcut>C</Shortcut>
-        <Command>cm_ImageCenter</Command>
-      </Hotkey>
-      <Hotkey>
-        <Shortcut>F</Shortcut>
-        <Command>cm_StretchImage</Command>
-      </Hotkey>
-      <Hotkey>
-        <Shortcut>L</Shortcut>
-        <Command>cm_StretchOnlyLarge</Command>
-      </Hotkey>
-      <Hotkey>
-        <Shortcut>W</Shortcut>
-        <Command>cm_WrapText</Command>
-      </Hotkey>
-      <Hotkey>
-        <Shortcut>Ctrl+G</Shortcut>
-        <Command>cm_GotoLine</Command>
-      </Hotkey>
-      <Hotkey>
-        <Shortcut>Ctrl+Z</Shortcut>
-        <Command>cm_Undo</Command>
-      </Hotkey>
     </Form>
     <Form Name="Differ">
       <Hotkey>
         <Shortcut>Ctrl+R</Shortcut>
         <Command>cm_Reload</Command>
+      </Hotkey>
+      <Hotkey>
+        <Shortcut>Ctrl+F</Shortcut>
+        <Command>cm_Find</Command>
+      </Hotkey>
+      <Hotkey>
+        <Shortcut>F7</Shortcut>
+        <Command>cm_Find</Command>
+      </Hotkey>
+      <Hotkey>
+        <Shortcut>F3</Shortcut>
+        <Command>cm_FindNext</Command>
+      </Hotkey>
+      <Hotkey>
+        <Shortcut>Shift+F3</Shortcut>
+        <Command>cm_FindPrev</Command>
+      </Hotkey>
+      <Hotkey>
+        <Shortcut>Ctrl+G</Shortcut>
+        <Command>cm_GotoLine</Command>
       </Hotkey>
       <Hotkey>
         <Shortcut>Alt+Down</Shortcut>
@@ -685,25 +722,11 @@
         <Shortcut>Alt+Right</Shortcut>
         <Command>cm_CopyLeftToRight</Command>
       </Hotkey>
+    </Form>
+    <Form Name="Confirmation">
       <Hotkey>
-        <Shortcut>Ctrl+F</Shortcut>
-        <Command>cm_Find</Command>
-      </Hotkey>
-      <Hotkey>
-        <Shortcut>F7</Shortcut>
-        <Command>cm_Find</Command>
-      </Hotkey>
-      <Hotkey>
-        <Shortcut>F3</Shortcut>
-        <Command>cm_FindNext</Command>
-      </Hotkey>
-      <Hotkey>
-        <Shortcut>Shift+F3</Shortcut>
-        <Command>cm_FindPrev</Command>
-      </Hotkey>
-      <Hotkey>
-        <Shortcut>Ctrl+G</Shortcut>
-        <Command>cm_GotoLine</Command>
+        <Shortcut>F2</Shortcut>
+        <Command>cm_AddToQueue</Command>
       </Hotkey>
     </Form>
     <Form Name="Copy/Move Dialog">
@@ -1048,12 +1071,6 @@
       <Hotkey>
         <Shortcut>Ctrl+Shift+F1</Shortcut>
         <Command>cm_PlgnExtMask</Command>
-      </Hotkey>
-    </Form>
-    <Form Name="Confirmation">
-      <Hotkey>
-        <Shortcut>F2</Shortcut>
-        <Command>cm_AddToQueue</Command>
       </Hotkey>
     </Form>
   </Hotkeys>

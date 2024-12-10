@@ -20,13 +20,8 @@
     "icon": "/usr/share/nwg-bar/images/system-shutdown.svg"
   },
   {
-    "label": "Hibernate",
-    "exec": "swaylock && sleep 1 && systemctl hibernate",
-    "icon": "/usr/share/nwg-bar/images/system-hibernate.svg"
-  },
-  {
     "label": "Suspend",
-    "exec": "swaylock && sleep 1 && systemctl suspend",
+    "exec": "systemctl suspend",
     "icon": "/usr/share/nwg-bar/images/system-suspend.svg"
   }
 ]
