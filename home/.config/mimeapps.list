@@ -19,6 +19,8 @@ x-scheme-handler/mailto=google-chrome.desktop
 x-scheme-handler/webcal=google-chrome.desktop
 text/x-devicetree-source=sublime_text.desktop;
 video/mp4=mpv.desktop
+application/x-zerosize=qpdfview.desktop
+application/epub+zip=calibre-ebook-viewer.desktop;
 
 [Added Associations]
 x-scheme-handler/http=librewolf.desktop;
@@ -41,3 +43,5 @@ application/vnd.ms-publisher=sublime_text.desktop;
 text/x-devicetree-source=sublime_text.desktop;
 image/jpeg=feh.desktop;
 video/mp4=mpv.desktop;
+application/x-zerosize=qpdfview.desktop;calibre-gui.desktop;
+application/epub+zip=calibre-ebook-edit.desktop;calibre-ebook-viewer.desktop;
