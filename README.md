@@ -32,10 +32,10 @@ This configuration utilizes PipeWire for audio management. If you prefer to use 
        sudo pacman -Rdd pulseaudio
 
 2. Install PipeWire:
- 
+
        sudo pacman -S pipewire-{jack,alsa,pulse}
        systemctl --user enable --now pipewire pipewire-pulse 
-  
+
 #### More configurations
 
 ##### Configure `papirus-folders` for catppuccin machiatto green
@@ -91,6 +91,8 @@ By following the steps outlined in the guide, you can set up and customize `fusu
 3. Be careful, make a backup of everything, and from inside `dotfiles` run: 
 
        stow --adopt .
+  
+  *This will create symlinks to all the configuration directories in `$HOME` directory.*
   
 3. Restart your window manager or log out and back in.
 
