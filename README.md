@@ -86,7 +86,11 @@ By following the steps outlined in the guide, you can set up and customize `fusu
 
        git clone https://github.com/arqueon/niri_hypr_qtile.git
 
-2. Copy the desired configuration files to your `$HOME` directory.
+2. Copy the desired configuration files to a newly created `dotfiles` directory your `$HOME` directory.
+
+3. Be careful, make a backup of everything, and from inside `dotfiles` run: 
+
+    stow --adopt .
 
 3. Restart your window manager or log out and back in.
 
