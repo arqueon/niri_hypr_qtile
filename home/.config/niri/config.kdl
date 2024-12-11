@@ -60,13 +60,13 @@ workspace "notes" {
 workspace "write" {
     open-on-output "HDMI-A-1"
 }
-workspace "virt" {
-    open-on-output "DP-2"
-}
 workspace "files" {
     open-on-output "DP-2"
 }
 workspace "term" {
+    open-on-output "DP-2"
+}
+workspace "virt" {
     open-on-output "DP-2"
 }
 workspace "media" {
@@ -274,6 +274,7 @@ spawn-at-startup "wlsunset" "-l" "20.70" "-L" "-103.34"
 spawn-at-startup "xwayland-satellite"
 spawn-at-startup "/usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1"
 spawn-at-startup "~/.config/niri/swayidle.sh"
+spawn-at-startup "blueman-applet"
 
 // Client-side decorations
 // Uncomment this line to ask the clients to omit their client-side decorations if possible.
@@ -508,7 +509,7 @@ binds {
     Mod+Shift+C { spawn "farge" "--notify" "--no-preview"; }
     Mod+Shift+N { spawn "swaync-client" "-t" "-sw"; }
     Mod+Shift+W { spawn "~/.config/niri/waybar.sh"; }
-    Mod+M { spawn "mpv" "/dev/video2"; }
+    Mod+M { spawn "mpv" "/dev/video0"; }
 
     Mod+period { spawn "anyrun"; }
     Mod+Shift+Tab { spawn ".config/niri/niri_fuzzel_switcher"; }
@@ -725,7 +726,7 @@ hotkey-overlay {
 
 // Environment variables
 environment {
-    DISPLAY ":0"
+    DISPLAY ":1"
     QT_QPA_PLATFORM "wayland"
     QT_QPA_PLATFORMTHEME "qt6ct"
     XDG_SESSION_TYPE "wayland"
@@ -738,4 +739,6 @@ environment {
     _JAVA_AWT_WM_NONREPARENTING "1"
     GTK_THEME "catppuccin-macchiato-green-standard+default"
     ELECTRON_OZONE_PLATFORM_HINT "auto"
+    CHROME_EXECUTABLE "google-chrome-stable"
+    XCURSOR_THEME "Bibata-Modern-Ice"
 }
