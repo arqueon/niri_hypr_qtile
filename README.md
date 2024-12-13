@@ -21,7 +21,7 @@ This was created in an Arcolinux offline setup vía the [Arconet ISO](https://ww
 
 First, install the required packages:
 
-    yay -S alacritty anyrun-git arandr archlinux-logout btop catppuccin-gtk-theme-macchiato copyq curl dmenu farge-git fastfetch foot fuzzel git grimblast hypridle hyprland hyprlock hyprpicker kvantum-theme-catppuccin-git lib32-pipewire libnotify network-manager-applet niri nwg-bar nwg-drawer nwg-look papirus-icon-theme papirus-folders-catppuccin-git pipewire playerctl pokemon-colorscripts-git polkit-gnome pyprland qt5ct qt6ct qtile rofi ruby-fusuma stow swayidle swaylock-effects swaync swayosd-git swww sxhkd thunar variety arconet-variety-config volumectl waybar wldash wl-clipboard wlogout wlsunset wireplumber wlr-protocols wttr wttrbar xwayland-satellite xfce4-appfinder yad 
+    yay -S alacritty anyrun-git arandr archlinux-logout btop catppuccin-gtk-theme-macchiato copyq curl dmenu farge-git fastfetch foot fuzzel git grim grimblast hypridle hyprland hyprlock hyprpicker kvantum-theme-catppuccin-git lib32-pipewire libnotify network-manager-applet niri nwg-bar nwg-drawer nwg-look papirus-icon-theme papirus-folders-catppuccin-git pipewire playerctl pokemon-colorscripts-git polkit-gnome pyprland qt5ct qt6ct qtile rofi ruby-fusuma stow swappy swayidle swaylock-effects swaync swayosd-git swww sxhkd thunar variety arconet-variety-config volumectl waybar wldash wl-clipboard wlogout wlsunset wireplumber wlr-protocols wttr wttrbar xwayland-satellite xfce4-appfinder yad 
 
 #### Replace PulseAudio with PipeWire
 
