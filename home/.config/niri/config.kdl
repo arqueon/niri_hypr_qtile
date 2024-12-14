@@ -457,7 +457,7 @@ window-rule {
 
 window-rule {
     match is-active=false
-    opacity 0.9
+    //opacity 0.9
 }
 
 window-rule {
@@ -706,6 +706,7 @@ binds {
     Print { screenshot; }
     Ctrl+Print { screenshot-screen; }
     Alt+Print { screenshot-window; }
+    Mod+Print { spawn "~/.config/niri/screenshot_swappy.sh"; }
 
     // Exit Niri
     Mod+Shift+E { quit; }
@@ -741,4 +742,6 @@ environment {
     ELECTRON_OZONE_PLATFORM_HINT "auto"
     CHROME_EXECUTABLE "google-chrome-stable"
     XCURSOR_THEME "Bibata-Modern-Ice"
+    HYPRSHOT_DIR "$HOME/Pictures/Screenshots/"
+    XDG_SCREENSHOTS_DIR "$HOME/Pictures/Screenshots"
 }

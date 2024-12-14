@@ -216,15 +216,15 @@
 
   "mpris": {
     "format": "{player_icon} {dynamic}",
-    "format-paused": "{status_icon} <i>{dynamic}</i>",
+    "format-paused": "{status_icon} {dynamic}",
     "on-scroll-up": "playerctl next",
     "on-scroll-down": "playerctl previous",
     "player-icons": {
-      "default": "▶",
+      "default": "",
       "mpv": "🎵"
     },
     "status-icons": {
-      "paused": "⏸"
+      "paused": "󰏤"
     }
   },
 
