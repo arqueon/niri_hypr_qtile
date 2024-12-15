@@ -1,204 +1,93 @@
 {
-  "$schema": "/etc/xdg/swaync/configSchema.json",
+  "$schema": "$XDG_CONFIG_HOME/swaync/configSchema.json",
+  "control-center-height": 2,
+  "control-center-layer": "overlay",
+  "control-center-margin-bottom": 6,
+  "control-center-margin-left": 0,
+  "control-center-margin-right": 6,
+  "control-center-margin-top": 6,
+  "control-center-width": 500,
+  "cssPriority": "application",
+  "control-center-positionX":"right",
+  "control-center-positionY":"center",
+  "fit-to-screen": true,
+  "hide-on-action": false,
+  "hide-on-clear": true,
+  "image-visibility": "when-available",
+  "keyboard-shortcuts": true,
+  "layer": "layer",
+  "notification-body-image-height": 100,
+  "notification-body-image-width": 200,
+  "notification-icon-size": 40,
+  "notification-inline-replies": true,
+  "notification-visibility": {},
+  "notification-window-width": 450,
   "positionX": "right",
   "positionY": "top",
-  "control-center-margin-top": 8,
-  "control-center-margin-bottom": 8,
-  "control-center-margin-right": 8,
-  "control-center-margin-left": 0,
-  "notification-icon-size": 100,
-  "notification-body-image-height": 160,
-  "notification-body-image-width": 290,
-  "timeout": 45,
-  "timeout-low": 25,
-  "timeout-critical": 0,
-  "fit-to-screen": true,
-  "control-center-width": 480,
-  "notification-window-width": 500,
-  "keyboard-shortcuts": true,
-  "image-visibility": "when-available",
-  "transition-time": 100,
-  "hide-on-clear": false,
-  "hide-on-action": true,
   "script-fail-notify": true,
-  "scripts": {
-    "example-script": {
-      "exec": "echo 'Do something...'",
-      "urgency": "Normal"
-    }
-  },
-  "notification-visibility": {
-    "example-name": {
-      "state": "muted",
-      "urgency": "Low",
-      "app-name": "Spotify"
-    }
-  },
-  "widgets": [
-    "label",
-    "menubar",
-    "buttons-grid",
-    "volume",
-    "mpris",
-    "title",
-    "dnd",
-    "notifications"
-  ],
+  "scripts": {},
+  "timeout": 30,
+  "timeout-critical": 0,
+  "timeout-low": 15,
+  "transition-time": 100,
   "widget-config": {
-    "title": {
-      "text": "Notifications",
-      "clear-all-button": true,
-      "button-text": "Clear All"
-    },
-    "dnd": {
-      "text": "Do Not Disturb"
-    },
-    "label": {
-      "max-lines": 1,
-      "text": "Control Center"
-    },
-    "mpris": {
-      "image-size": 96,
-      "image-radius": 6
-    },
-    "backlight": {
-      "label": "",
-      "device": "intel_backlight",
-      "min": 10
-    },
-    "backlight#KB": {
-      "label": " ",
-      "device": "asus::kbd_backlight",
-      "subsystem": "leds"
-    },
-    "volume": {
-      "label": ""
-    },
-    "menubar": {
-      "menu#power-buttons": {
-        "label": "", 
-        "position": "right",
-        "actions": [ 
-          {
-            "label": "󰜉   Reboot",
-            "command": "systemctl reboot"
-          },
-          {
-            "label": "󰏥   Suspend",
-            "command": "systemctl suspend"
-          },
-          {
-            "label": "󰌾   Lock",
-            "command": "swaylock"
-          },
-          {
-            "label": "   Logout",
-            "command": "niri msg action quit"
-          },
-          {
-            "label": "󰐥   Shut down",
-            "command": "systemctl poweroff"
-          }
-        ]
-      },
-      "menu#powermode-buttons": {
-        "label": "", 
-        "position": "right",
-        "actions": [ 
-          {
-            "label": "Performance",
-            "command": "powerprofilesctl set performance"
-          },
-          {
-            "label": "Balanced",
-            "command": "powerprofilesctl set balanced"
-          },
-          {
-            "label": "Power-saver",
-            "command": "powerprofilesctl set power-saver"
-          }
-        ]
-      },
-      "menu#screenshot-buttons": {
-        "label": "",
-        "position": "left",
-        "actions": [
-          {
-            "label": "   Entire screen",
-            "command": "swaync-client -cp && sleep 1 && hyprshot -m output"
-          },
-          {
-            "label": "   Select a region",
-            "command": "swaync-client -cp && sleep 1 && hyprshot -m region"
-          },
-          {
-            "label": "   Open screenshot menu",
-            "command": "swaync-client -cp && rofi-screenshot"
-          },
-          {
-            "label": "   Open screenshot folder",
-            "command": "exo-open $HYPRSHOT_DIR"
-          }
-        ]
-      },
-      "menu#screencast-buttons": {
-        "label": "",
-        "position": "left",
-        "actions": [
-          {
-            "label": "   Entire screen",
-            "command": "swaync-client -cp && sleep 1 && recording.sh toggle fullscreen"
-          },
-          {
-            "label": "   Select a region",
-            "command": "swaync-client -cp && sleep 1 && recording.sh toggle region"
-          },
-          {
-            "label": "   Stop",
-            "command": "swaync-client -cp && recording.sh stop"
-          },
-          {
-            "label": "   Open screencast folder",
-            "command": "$XDG_VIDEOS_DIR/Screencasts"
-          }
-        ]
-      }
-    },
     "buttons-grid": {
       "actions": [
         {
-          "label": "",
-          "command": "nm-connection-editor"
+          "active": false,
+          "command": "notify-send 'hey'",
+          "label": "󰤄",
+          "type": "toggle",
+          "update_command": "notify-send 'Hi'"
         },
         {
-          "label": "",
-          "command": "blueman"
+          "active": false,
+          "command": "swaync-client -d",
+          "label": "",
+          "type": "toggle"
         },
         {
-          "label": "",
-          "command": "nwg-look"
+          "active":false,
+          "command":"obs",
+          "label":"󰄀",
+          "type": "button"
         },
         {
-          "label": "",
-          "command": "exo-open ~/ConfigHub"
+          "active":false,
+          "command":"obs",
+          "label":"󰕧",
+          "type": "button"
         },
         {
-          "label": "",
-          "command": "ymuse"
-        },
-        {
-          "label": "",
-          "command": "orage"
-        },
-        {
-          "label": "",
-          "command": "pamac-manager"
-        },
-        {
-          "label": "",
-          "command": "firefox"
+          "active": false,
+          "command": "swaync-client -t",
+          "label": "",
+          "type": "toggle"
         }
       ]
+    },
+    "mpris": {
+      "image-radius": 12,
+      "image-size": 96
+    },
+    "title": {
+      "text": "Notifications",
+      "button-text": "󰎟 Clear",
+      "clear-all-button": true      
+    },
+    "volume": {
+      "label": "",
+        "show-per-app": true,
+        "show-per-app-icon": true,
+        "show-per-app-label":true
     }
-  }
+},
+
+  "widgets": [
+    "title",
+    "notifications",
+    "buttons-grid",
+    "mpris",
+    "volume"
+  ]
 }
