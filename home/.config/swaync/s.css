@@ -2,7 +2,7 @@
 @import url("../swaync/blur-colors-gtk.css");
 
 @define-color cc-bg @color-blur1;
-@define-color noti-border-color @foreground;
+@define-color noti-border-color @color-solid14;
 @define-color noti-bg @color-solid3;
 @define-color noti-bg-opaque @color-solid3;
 @define-color noti-bg-darker @color-solid2;
