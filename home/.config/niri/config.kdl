@@ -474,7 +474,7 @@ window-rule {
 }
 
 window-rule {
-    match app-id="YouTube Music"
+    match app-id=r#"YouTube Music"#
     default-column-width { proportion 0.7; }
     open-on-workspace "media"
 }
@@ -523,6 +523,8 @@ binds {
     Mod+Shift+N { spawn "swaync-client" "-t" "-sw"; }
     Mod+Shift+W { spawn "~/.config/niri/waybar.sh"; }
     Mod+M { spawn "mpv" "/dev/video0"; }
+    Ctrl+Alt+P { spawn "pamac-manager"; }
+
 
     Mod+period { spawn "anyrun"; }
     Mod+Shift+Tab { spawn ".config/niri/niri_fuzzel_switcher"; }
